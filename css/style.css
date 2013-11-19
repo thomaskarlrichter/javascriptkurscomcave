@@ -1,7 +1,10 @@
 @charset "utf-8";
+body {
+
+    font-family: Ribeye;
+}
 
 .stundenplan {
-    font-family: Ribeye;
     font-size: 80%;
     padding: 150px 90px 60px 90px;
     width: 720px;
