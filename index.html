@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <style type="text/css" rel="stylesheet">
+        .feld {
+            background-color: red;
+            color: white;
+            height: 20px;
+            width: 200px;
+        }
+        .hoeher {
+            height: 40px;
+            background-color: blue;
+        }
+
+    </style>
+    <script src="main.js"></script>
+</head>
+<body>
+<h1 id="mytitle">Galerie</h1>
+<img src="galerie/de1.jpg" alt="Berlin" id="bild"/><br>
+<img src="galerie/thumb1.jpg" alt="Berlin" onclick="loadMainImage(1, 'Berlin');"/>
+<img src="galerie/thumb2.jpg" alt="Bremen" onclick="loadMainImage(2, 'Bremen')"/>
+<img src="galerie/thumb3.jpg" alt="Köln" onclick="loadMainImage(3, 'Köln')"/>
+<img src="galerie/thumb4.jpg" alt="Mannheim" onclick="loadMainImage(4, 'Mannheim')"/>
+<img src="galerie/thumb5.jpg" alt="Dresden" onclick="loadMainImage(5, 'Dresden')"/>
+
+
+<h2>Akkordeon</h2>
+
+<div id="accordeon">
+    <div class="feld hoeher" onmouseover="auf(event)">Info 1</div>
+    <div class="feld" onmouseover="auf(event)">Info 2</div>
+    <div class="feld" onmouseover="auf(event)">Info 3</div>
+    <div class="feld" onmouseover="auf(event)">Info 4</div>
+    <div class="feld" onmouseover="auf(event)">info 5</div>
+</div>
+</body>
+</html>
