@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+.stundenplan {
+    font-family: Ribeye;
+    font-size: 80%;
+    padding: 150px 90px 60px 90px;
+    width: 720px;
+    height: 510px;
+    background-image: url(http://www.fjg-film.de/img/stundenplan.jpg);
+}
+.stundenplan tr {
+    height: 20px;
+}
+.stundenplan td {
+    text-align: center;
+   /* border: 2px solid blue; */
+}
