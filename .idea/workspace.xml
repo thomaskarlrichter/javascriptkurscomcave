@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c19861c5-4da0-4687-9d1b-3479942f697d" name="Default" comment="stundenplan">
+    <list default="true" id="c19861c5-4da0-4687-9d1b-3479942f697d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="uebung1.iws" />
@@ -428,7 +428,11 @@
       <created>1384929976058</created>
       <updated>1384929976058</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Stundenplan version mit map">
+      <created>1384930026648</created>
+      <updated>1384930026648</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -464,7 +468,8 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="stundenplan" />
-    <option name="LAST_COMMIT_MESSAGE" value="stundenplan" />
+    <MESSAGE value="Stundenplan version mit map" />
+    <option name="LAST_COMMIT_MESSAGE" value="Stundenplan version mit map" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
