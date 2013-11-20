@@ -6,15 +6,107 @@
     <link href='http://fonts.googleapis.com/css?family=Ribeye' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/style.css"/>
     <script src="js/stundenplan.js"></script>
+    <script src="bower_components/lodash/lodash.js"></script>
 </head>
 <body>
 <h1>Stundenplan</h1>
-
-<script>
-    zeichne_stundenplan(stundenplan);
-</script>
-
-
-
+<table id="stundenplan">
+    <tr>
+        <th>Zeit</th>
+        <th>Montag</th>
+        <th>Dienstag</th>
+        <th>Mittwoch</th>
+        <th>Donnerstag</th>
+        <th>Freitag</th>
+    </tr>
+    <tr>
+        <td id="800">8:00</td>
+        <td id="800_1"></td>
+        <td id="800_2"></td>
+        <td id="800_3"></td>
+        <td id="800_4"></td>
+        <td id="800_5"></td>
+    </tr>
+    <tr>
+        <td id="845">8:45</td>
+        <td id="845_1"></td>
+        <td id="845_2"></td>
+        <td id="845_3"></td>
+        <td id="845_4"></td>
+        <td id="845_5"></td>
+    </tr>
+    <tr>
+        <td id="945">9:45</td>
+        <td id="945_1"></td>
+        <td id="945_2"></td>
+        <td id="945_3"></td>
+        <td id="945_4"></td>
+        <td id="945_5"></td>
+    </tr>
+    <tr>
+        <td id="1030">10:30</td>
+        <td id="1030_1"></td>
+        <td id="1030_2"></td>
+        <td id="1030_3"></td>
+        <td id="1030_4"></td>
+        <td id="1030_5"></td>
+    </tr>
+    <tr>
+        <td id="1130">11:30</td>
+        <td id="1130_1"></td>
+        <td id="1130_2"></td>
+        <td id="1130_3"></td>
+        <td id="1130_4"></td>
+        <td id="1130_5"></td>
+    </tr>
+    <tr>
+        <td id="1215">12:15</td>
+        <td id="1215_1"></td>
+        <td id="1215_2"></td>
+        <td id="1215_3"></td>
+        <td id="1215_4"></td>
+        <td id="1215_5"></td>
+    </tr>
+    <tr>
+        <td id="1330">13:30</td>
+        <td id="1330_1"></td>
+        <td id="1330_2"></td>
+        <td id="1330_3"></td>
+        <td id="1330_4"></td>
+        <td id="1330_5"></td>
+    </tr>
+    <tr>
+        <td id="1415">14:15</td>
+        <td id="1415_1"></td>
+        <td id="1415_2"></td>
+        <td id="1415_3"></td>
+        <td id="1415_4"></td>
+        <td id="1415_5"></td>
+    </tr>
+    <tr>
+        <td id="1515">15:15</td>
+        <td id="1515_1"></td>
+        <td id="1515_2"></td>
+        <td id="1515_3"></td>
+        <td id="1515_4"></td>
+        <td id="1515_5"></td>
+    </tr>
+    <tr>
+        <td id="1615">16:15</td>
+        <td id="1615_1"></td>
+        <td id="1615_2"></td>
+        <td id="1615_3"></td>
+        <td id="1615_4"></td>
+        <td id="1615_5"></td>
+    </tr>
+    <tr>
+        <td id="1700">17:00</td>
+        <td id="1700_1"></td>
+        <td id="1700_2"></td>
+        <td id="1700_3"></td>
+        <td id="1700_4"></td>
+        <td id="1700_5"></td>
+    </tr>
+</table>
 </body>
 </html>
