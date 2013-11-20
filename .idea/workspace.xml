@@ -436,7 +436,11 @@
       <created>1384930044183</created>
       <updated>1384930044183</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Stundenplan version mit map">
+      <created>1384930158110</created>
+      <updated>1384930158110</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
