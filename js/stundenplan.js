@@ -4,23 +4,36 @@
 
 var stundenplan = [
     {tag: "Montag", anfang: "8:00", ende: "13:00", fach: "javascript"},
-    {tag: "Montag", anfang: "13:30", ende: "15:00", fach: "übung"}
+    {tag: "Dienstag", anfang: "8:00", ende: "13:00", fach: "javascript"},
+    {tag: "Mittwoch", anfang: "8:00", ende: "13:00", fach: "javascript"},
+    {tag: "Donnerstag", anfang: "8:00", ende: "13:00", fach: "javascript"},
+    {tag: "Freitag", anfang: "8:00", ende: "13:00", fach: "javascript"},
+    {tag: "Montag", anfang: "13:30", ende: "15:00", fach: "übung"},
+    {tag: "Dienstag", anfang: "13:30", ende: "15:00", fach: "übung"},
+    {tag: "Mittwoch", anfang: "13:30", ende: "15:00", fach: "übung"},
+    {tag: "Donnerstag", anfang: "13:30", ende: "15:00", fach: "übung"}
 ];
 
 function stunde_eintragen(stunde){
-    var index, anfang_id;
-    if (stunde.tag === "Montag") index = "1";
-    if (stunde.tag === "Dienstag") index = "2";
-    if (stunde.tag === "Mittwoch") index = "3";
-    if (stunde.tag === "Donnerstag") index = "4";
-    if (stunde.tag === "Freitag") index = "5";
+    var index, anfang_id, myid;
+    if ("Montag" === stunde.tag) index = "1";
+    if ("Dienstag" === stunde.tag) index = "2";
+    if ("Mittwoch" === stunde.tag) index = "3";
+    if ("Donnerstag" === stunde.tag) index = "4";
+    if ("Freitag" === stunde.tag) index = "5";
     anfang_id = stunde.anfang.split(":").join("");
-    document.getElementById(angang_id+"_"+index).innerHTML = stunde.fach;
+    console.log(anfang_id);
+    myid = anfang_id+"_"+index;
+    console.info(myid);
+    var tabellenzelle = document.getElementById(myid);
+    console.log(tabellenzelle);
+    tabellenzelle.innerText = stunde.fach;
 
 }
 
 function alle_eintragen(stundenplan){
-    _.map(stundenplan, stunde_eintragen);
+    console.log(
+    _.map(stundenplan, stunde_eintragen));
 }
 
 function zeichne_stundenplan(plan) {
@@ -35,3 +48,4 @@ function zeichne_stundenplan(plan) {
     }
     document.write('</table>');
 }
+;

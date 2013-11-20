@@ -6,10 +6,13 @@ body {
 
 #stundenplan {
     font-size: 80%;
-    padding: 150px 90px 60px 90px;
+    padding: 125px 90px 60px 90px;
     width: 720px;
     height: 510px;
     background-image: url(http://www.fjg-film.de/img/stundenplan.jpg);
+}
+#stundenplan tr th {
+    color: transparent;
 }
 #stundenplan tr {
     height: 20px;

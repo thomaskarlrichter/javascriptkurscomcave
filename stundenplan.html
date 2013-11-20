@@ -5,13 +5,13 @@
     <title>Stundenplan</title>
     <link href='http://fonts.googleapis.com/css?family=Ribeye' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/style.css"/>
+    <script src="bower_components/lodash/dist/lodash.js"></script>
     <script src="js/stundenplan.js"></script>
-    <script src="bower_components/lodash/lodash.js"></script>
 </head>
-<body>
+<body onload="alle_eintragen(stundenplan);">
 <h1>Stundenplan</h1>
 <table id="stundenplan">
-    <tr>
+    <tr id="header">
         <th>Zeit</th>
         <th>Montag</th>
         <th>Dienstag</th>
@@ -98,14 +98,6 @@
         <td id="1615_3"></td>
         <td id="1615_4"></td>
         <td id="1615_5"></td>
-    </tr>
-    <tr>
-        <td id="1700">17:00</td>
-        <td id="1700_1"></td>
-        <td id="1700_2"></td>
-        <td id="1700_3"></td>
-        <td id="1700_4"></td>
-        <td id="1700_5"></td>
     </tr>
 </table>
 </body>
