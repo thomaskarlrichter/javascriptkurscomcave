@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+	
+		<meta charset="utf-8" />
+		<title>Tolle Webseite</title>
+		
+		<style>
+			.item { width:20px; height:20px; border:1px solid red; margin:1px; float:left; }
+			.clearer { clear:both; }
+		</style>
+
+        <script src="../../js/schleifen.js"></script>
+		<script>
+		
+			// Startbedingung , Endbedingung , Increment/Decrement
+			
+			// for(Startbedingung; Endbedingung; Increment/Decrement) { }
+			// while(Endbedingung) {}	// Kopfgesteuerte Schleife
+			// do{}while(Endbedingung)	// Fußgesteuerte Schleife
+			// for in , each
+		
+		</script>
+	
+	
+	</head>
+	
+	<body>
+		
+		<h3>Schleifen</h3>
+		
+		<p>4711</p>
+		<p>4711</p>
+
+		
+		<script>
+		
+		
+		/*	var x = 1000;
+			x = x + 1;
+			x = x + 1;
+			x = x + 1;
+			x += 1;
+			x++;
+			alert(x);*/
+		
+			for(var n=0; n<5; n++ ){
+				document.write('<p>' + n + '.) Element</p>');
+			}
+			
+		</script>
+		
+		
+		<ul>
+			<li>4711</li>
+			<li>4711</li>
+			<li>4711</li>
+			<li>4711</li>
+		</ul>
+		
+		<script>
+
+			var tage = ['MONTAG', 'DIENSTAG', 'MITTWOCH', 'DONNERSTAG', 'FREITAG', 'SAMSTAG', 'SONNTAG'];
+			document.write('<ul>');
+			for(var n = 0; n < 7; n++){
+				document.write('<li>' + tage[n] +'</li>');
+			}
+			document.write('</ul>');
+		
+		</script>
+		
+	<!-- nachbauen -->
+        <div id="filltable">
+		<table border="1">
+			<tr>
+				<td>4711</td>
+				<td>4711</td>
+				<td>4711</td>
+				<td>4711</td>
+			</tr>
+			<tr>
+				<td>4711</td>
+				<td>4711</td>
+				<td>4711</td>
+				<td>4711</td>
+			</tr>
+			<tr>
+				<td>4711</td>
+				<td>4711</td>
+				<td>4711</td>
+				<td>4711</td>
+			</tr>
+		</table>
+            </div>
+	    <button onclick="addDynamicTable();">Add Dynamic Table</button>
+		<div class="spiel">
+		
+			<div class="item"></div>
+			<div class="item"></div>
+			<div class="clearer"></div>
+			
+			<div class="item"></div>
+			<div class="item"></div>
+			<div class="clearer"></div>
+			
+			<div class="item"></div>
+			<div class="item"></div>
+			<div class="clearer"></div>
+			
+			<div class="item"></div>
+			<div class="item"></div>
+			<div class="clearer"></div>
+			
+		</div>
+		<br/><br/>
+		
+		<script>
+			document.write('<div class="spiel">');
+			for(var r=0; r<8; r++){  // Äußere Schleife für die Reihen
+				
+				for(var s=0; s<8; s++) {  // Innere Schleife für die Spalten
+					document.write('<div class="item"></div>');
+				}
+				
+				document.write('<div class="clearer"></div>');
+			}
+			document.write('</div>');
+		</script>
+		
+		<div id="geburtstag">
+		<form>
+			<select>
+				<option>4711</option>
+				<option>4711</option>
+				<option>4711</option>
+				<option>4711</option>
+				<option>4711</option>
+				<option>4711</option>
+				<option>4711</option>
+				<option>4711</option>
+				<option>4711</option>
+			</select>
+            <!-- drei selects tag monat jahr (rückwärts von 2013 bis 1920-->
+		</form>
+        </div>
+        <button onclick="addDynamicFormSelect();">Replace Form</button>
+		
+		<!-- einfache Schleife -->
+        <div id="blog">
+
+		<div class="artikel">
+			<h1>Headline</h1>
+			<div class="date">Jun 11, 2006 by Laoreet</div>
+			<p>Aliquam risus justo, mollis in, laoreet a, consectetuer nec, risus. Nunc blandit sodales lacus. Nam luctus semper mi. In eu diam. Phasellus rutrum elit vel nisi. Cras mauris nulla, egestas quis, cursus at, venenatis ac, ante. Fusce accumsan enim et arcu. Duis sagittis libero at lacus. Suspendisse lacinia nulla eget urna.</p>
+			<p>In hac habitasse platea dictumst. Duis porttitor. Sed vulputate elementum nisl. Vivamus et mi at arcu mattis iaculis. Nullam posuere tristique tortor. In bibendum. Aenean ornare, nunc eget pretium porttitor, sem est pretium leo, non euismod nulla dui non diam. Pellentesque dictum faucibus leo. Vestibulum ac ante. Sed in est. Sed sodales nisl sit amet augue. Donec ultrices, augue ullamcorper posuere laoreet, turpis massa tristique justo, sed egestas metus magna sed purus. Fusce eleifend, dui ut posuere auctor, justo elit posuere sapien, at blandit enim quam fringilla mi.</p>
+		</div>
+		
+		<div class="artikel">
+			<h1>Headline</h1>
+			<div class="date">Jun 11, 2006 by Laoreet</div>
+			<p>Aliquam risus justo, mollis in, laoreet a, consectetuer nec, risus. Nunc blandit sodales lacus. Nam luctus semper mi. In eu diam. Phasellus rutrum elit vel nisi. Cras mauris nulla, egestas quis, cursus at, venenatis ac, ante. Fusce accumsan enim et arcu. Duis sagittis libero at lacus. Suspendisse lacinia nulla eget urna.</p>
+			<p>In hac habitasse platea dictumst. Duis porttitor. Sed vulputate elementum nisl. Vivamus et mi at arcu mattis iaculis. Nullam posuere tristique tortor. In bibendum. Aenean ornare, nunc eget pretium porttitor, sem est pretium leo, non euismod nulla dui non diam. Pellentesque dictum faucibus leo. Vestibulum ac ante. Sed in est. Sed sodales nisl sit amet augue. Donec ultrices, augue ullamcorper posuere laoreet, turpis massa tristique justo, sed egestas metus magna sed purus. Fusce eleifend, dui ut posuere auctor, justo elit posuere sapien, at blandit enim quam fringilla mi.</p>
+		</div>
+		
+		<div class="artikel">
+			<h1>Headline</h1>
+			<div class="date">Jun 11, 2006 by Laoreet</div>
+			<p>Aliquam risus justo, mollis in, laoreet a, consectetuer nec, risus. Nunc blandit sodales lacus. Nam luctus semper mi. In eu diam. Phasellus rutrum elit vel nisi. Cras mauris nulla, egestas quis, cursus at, venenatis ac, ante. Fusce accumsan enim et arcu. Duis sagittis libero at lacus. Suspendisse lacinia nulla eget urna.</p>
+			<p>In hac habitasse platea dictumst. Duis porttitor. Sed vulputate elementum nisl. Vivamus et mi at arcu mattis iaculis. Nullam posuere tristique tortor. In bibendum. Aenean ornare, nunc eget pretium porttitor, sem est pretium leo, non euismod nulla dui non diam. Pellentesque dictum faucibus leo. Vestibulum ac ante. Sed in est. Sed sodales nisl sit amet augue. Donec ultrices, augue ullamcorper posuere laoreet, turpis massa tristique justo, sed egestas metus magna sed purus. Fusce eleifend, dui ut posuere auctor, justo elit posuere sapien, at blandit enim quam fringilla mi.</p>
+		</div>
+		
+		
+	</div>
+    <button onclick="addBlogEntry();">Add Blog Entry</button>
+		
+		
+		
+		
+		
+
+	</body>
+	
+
+</html>
