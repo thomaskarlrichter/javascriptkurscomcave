@@ -9,6 +9,14 @@
 		<style>
 			.item { width:20px; height:20px; border:1px solid red; margin:1px; float:left; }
 			.clearer { clear:both; }
+            td {
+                padding: 5px;
+                border: 1px solid blue;
+            }
+            table {
+                border: 3px dotted red;
+                margin: 2px;
+            }
 		</style>
 
         <script src="../../js/schleifen.js"></script>
@@ -93,7 +101,7 @@
 			</tr>
 		</table>
             </div>
-	    <button onclick="addDynamicTable();">Add Dynamic Table</button>
+	   <input id="counterx" type="number"/><input id="countery" type="number"/> <button onclick="addDynamicTable();">Add Dynamic Table</button>
 		<div class="spiel">
 		
 			<div class="item"></div>
@@ -172,7 +180,7 @@
 		
 		
 	</div>
-    <button onclick="addBlogEntry();">Add Blog Entry</button>
+    <input type="number" id="counter"/><button onclick="addBlogEntry();">Add Blog Entry</button>
 		
 		
 		
