@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c19861c5-4da0-4687-9d1b-3479942f697d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tage/tag03/schleifen.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/schleifen.js" />
-      <change type="DELETED" beforePath="C:\Users\trichter\PycharmProjects\uebung1\nunit.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tage/tag03/schleifen.html" afterPath="$PROJECT_DIR$/tage/tag03/schleifen.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/schleifen.js" afterPath="$PROJECT_DIR$/js/schleifen.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="uebung1.iws" />
@@ -33,7 +32,7 @@
           <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/main.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="17" column="31" selection-start="559" selection-end="559" vertical-scroll-proportion="0.0" vertical-offset="64" max-vertical-offset="595">
+                <state line="17" column="31" selection-start="559" selection-end="559" vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="770">
                   <folding />
                 </state>
               </provider>
@@ -42,7 +41,7 @@
           <file leaf-file-name="stundenplan.html" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/stundenplan.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="102" column="0" selection-start="2637" selection-end="2637" vertical-scroll-proportion="-66.69231" vertical-offset="0" max-vertical-offset="1853">
+                <state line="102" column="0" selection-start="2637" selection-end="2637" vertical-scroll-proportion="0.0" vertical-offset="2244" max-vertical-offset="2398">
                   <folding />
                 </state>
               </provider>
@@ -51,10 +50,8 @@
           <file leaf-file-name="stundenplan.js" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/js/stundenplan.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="13" column="45" selection-start="687" selection-end="687" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="969">
-                  <folding>
-                    <marker date="1384932924167" expanded="false" signature="1639:1650" placeholder="..." />
-                  </folding>
+                <state line="13" column="45" selection-start="687" selection-end="687" vertical-scroll-proportion="0.0" vertical-offset="286" max-vertical-offset="1254">
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -62,27 +59,34 @@
           <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="22" column="0" selection-start="394" selection-end="394" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
+                <state line="22" column="0" selection-start="394" selection-end="394" vertical-scroll-proportion="0.0" vertical-offset="454" max-vertical-offset="638">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="schleifen.html" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="schleifen.html" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/tage/tag03/schleifen.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="15" column="8" selection-start="297" selection-end="297" vertical-scroll-proportion="1.9615384" vertical-offset="306" max-vertical-offset="3230">
-                  <folding>
-                    <marker date="1384947355740" expanded="true" signature="2942:6036" placeholder="..." />
-                  </folding>
+                <state line="16" column="34" selection-start="373" selection-end="373" vertical-scroll-proportion="0.5285714" vertical-offset="278" max-vertical-offset="4356">
+                  <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="schleifen.js" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="schleifen.js" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/js/schleifen.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="6" column="0" selection-start="131" selection-end="131" vertical-scroll-proportion="0.22596154" vertical-offset="55" max-vertical-offset="782">
+                <state line="43" column="97" selection-start="1659" selection-end="1659" vertical-scroll-proportion="0.0" vertical-offset="264" max-vertical-offset="1518">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="EcmaScript.js" pinned="false" current="false" current-in-tab="false">
+            <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="20" column="0" selection-start="210" selection-end="210" vertical-scroll-proportion="0.0" vertical-offset="269" max-vertical-offset="20218">
                   <folding />
                 </state>
               </provider>
@@ -91,7 +95,7 @@
           <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="35" column="59" selection-start="1144" selection-end="1144" vertical-scroll-proportion="0.0" vertical-offset="595" max-vertical-offset="782">
+                <state line="35" column="59" selection-start="1144" selection-end="1144" vertical-scroll-proportion="0.0" vertical-offset="770" max-vertical-offset="1012">
                   <folding />
                 </state>
               </provider>
@@ -104,7 +108,7 @@
           <file leaf-file-name="schleifen.html" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/tage/tag03/schleifen.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="120" column="0" selection-start="2190" selection-end="2190" vertical-scroll-proportion="0.0" vertical-offset="2040" max-vertical-offset="3230">
+                <state line="128" column="0" selection-start="2466" selection-end="2466" vertical-scroll-proportion="3.3442624" vertical-offset="2408" max-vertical-offset="4356">
                   <folding />
                 </state>
               </provider>
@@ -141,15 +145,16 @@
         <option value="$PROJECT_DIR$/js/stundenplan.js" />
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/stundenplan.html" />
-        <option value="$PROJECT_DIR$/tage/tag03/schleifen.html" />
         <option value="$PROJECT_DIR$/js/schleifen.js" />
+        <option value="$PROJECT_DIR$/tage/tag03/schleifen.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="10" />
+    <option name="y" value="22" />
     <option name="width" value="1104" />
-    <option name="height" value="984" />
+    <option name="height" value="805" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -208,7 +213,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="uebung1" />
+              <option name="myItemId" value="javascriptkurscomcave" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -218,7 +223,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="uebung1" />
+              <option name="myItemId" value="javascriptkurscomcave" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -230,88 +235,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="uebung1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="uebung1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tag02" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="uebung1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="uebung1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="uebung1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="uebung1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="uebung1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="uebung1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="uebung1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="uebung1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bower_components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lodash" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dist" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -320,14 +243,14 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="45" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="185" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="45" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
     <property name="recentsLimit" value="5" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="45" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/tage/tag03/schleifen.html" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="47" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="438" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="299" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="438" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="47" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="46" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -441,9 +364,6 @@
       <option name="PARAMETERS" value="" />
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
-      <method />
-    </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -465,6 +385,9 @@
       <option name="PUREUNITTEST" value="true" />
       <option name="PARAMS" value="" />
       <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
       <method />
     </configuration>
     <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
@@ -571,25 +494,25 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="10" y="0" width="1104" height="984" extended-state="0" />
-    <editor active="false" />
+    <frame x="10" y="22" width="1104" height="805" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32810616" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32896653" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2975048" sideWeight="0.60193" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39806998" sideWeight="0.7735125" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30340263" sideWeight="0.60262007" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3959243" sideWeight="0.7735125" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39806998" sideWeight="0.22552784" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3973799" sideWeight="0.22552784" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298122" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32810616" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -610,24 +533,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/js/schleifen.js</url>
-          <line>6</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="6" />
+      <option name="time" value="8" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="31" selection-start="559" selection-end="559" vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="770">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/stundenplan.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="96" selection-start="184" selection-end="184" vertical-scroll-proportion="0.0" vertical-offset="110" max-vertical-offset="550">
@@ -638,9 +547,7 @@
     <entry file="file://$PROJECT_DIR$/js/stundenplan.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="30" selection-start="782" selection-end="782" vertical-scroll-proportion="0.0" vertical-offset="308" max-vertical-offset="770">
-          <folding>
-            <marker date="1384932924167" expanded="false" signature="1639:1650" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -695,7 +602,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/stundenplan.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="102" column="0" selection-start="2637" selection-end="2637" vertical-scroll-proportion="-66.69231" vertical-offset="0" max-vertical-offset="1853">
+        <state line="102" column="0" selection-start="2637" selection-end="2637" vertical-scroll-proportion="0.0" vertical-offset="2244" max-vertical-offset="2398">
           <folding />
         </state>
       </provider>
@@ -703,15 +610,27 @@
     <entry file="file://$PROJECT_DIR$/js/stundenplan.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="45" selection-start="687" selection-end="687" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="969">
-          <folding>
-            <marker date="1384932924167" expanded="false" signature="1639:1650" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="31" selection-start="559" selection-end="559" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="0" selection-start="210" selection-end="210" vertical-scroll-proportion="0.0" vertical-offset="269" max-vertical-offset="20218">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/schleifen.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="97" selection-start="1659" selection-end="1659" vertical-scroll-proportion="0.0" vertical-offset="264" max-vertical-offset="1518">
           <folding />
         </state>
       </provider>
@@ -725,16 +644,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tage/tag03/schleifen.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="8" selection-start="297" selection-end="297" vertical-scroll-proportion="1.9615384" vertical-offset="306" max-vertical-offset="3230">
-          <folding>
-            <marker date="1384947355740" expanded="true" signature="2942:6036" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/schleifen.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="131" selection-end="131" vertical-scroll-proportion="0.22596154" vertical-offset="55" max-vertical-offset="782">
+        <state line="16" column="34" selection-start="373" selection-end="373" vertical-scroll-proportion="0.5285714" vertical-offset="278" max-vertical-offset="4356">
           <folding />
         </state>
       </provider>
