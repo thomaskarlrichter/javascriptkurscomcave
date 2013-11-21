@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+	
+		<meta charset="utf-8" />
+		<title>Tolle Webseite</title>
+		
+		<style type="text/css">
+			#tab { width:300px; }
+			#info { height:120px; border:1px solid red; margin-top:10px; padding-left:15px; border-radius:10px;}
+			#menu span { border:1px solid #999; border-radius:10px; margin:5px; padding:5px 10px; cursor:pointer;}
+		</style>
+		
+		<script type="text/javascript">
+		
+			var daten = [
+				'<h3>NEWS</h3><p>Tolle NEWS aus aller Welt</p>', 
+				'<h3>POLITIK</h3><p>Tolle Politiknachrichten</p>', 
+				'<h3>SPORT</h3><p>Toller Bundesliga</p>', 
+				'<h3>TV</h3><p>Tolles TV-Programm</p>'
+			];
+		
+			function news() {
+				document.getElementById('info').innerHTML = daten[0];
+			}
+			
+			function politik() {
+				document.getElementById('info').innerHTML = daten[1];
+			}
+			
+			function sport() {
+				document.getElementById('info').innerHTML = daten[2];
+			}
+			
+			function tv() {
+				document.getElementById('info').innerHTML = daten[3];
+			}
+		
+		</script>
+		
+	</head>
+	
+	<body>
+	
+		<h3>Tab</h3>
+		
+		<div id="tab">
+			<div id="menu">
+				<span onclick="news();">News</span>
+				<span onclick="politik();">Politik</span>
+				<span onclick="sport();">Sport</span>
+				<span onclick="tv();">TV</span>
+			</div>
+			<div id="info"><h3>NEWS</h3><p>Tolle NEWS aus aller Welt</p></div>
+		</div>
+		
+	</body>
+	
+
+</html>

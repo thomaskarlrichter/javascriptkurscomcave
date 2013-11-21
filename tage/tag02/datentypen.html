@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+	
+		<meta charset="utf-8" />
+		<title>Tolle Webseite</title>
+		
+		<style></style>
+		
+		
+		<script>
+		
+			// VARIABLEN
+			
+			// Nur ein Wort oder ein Buchstabe
+			// Groß- und Kleinschreibung beachten
+			// keine Umlaute / keine Sonderzeichen außer Unterstrich und Dollar
+			// Erstes Zeichen keine Zahlen
+			
+			// -------------------------------------------------------
+			// primitive Datentypen
+			// -------------------------------------------------------
+			
+			// Zahlen Number
+			
+			var mwst = 19;
+			var PI   = 3.14;
+			var preis = (200 * mwst / 100) + 200;
+			
+			// Zeichenketten Strings
+			var susi  = 'Hallo "schöne" Welt';
+			var tina  = '<span style="color:red;">Hallo Tina!!</span>';
+			var otto  = "<span style=\"color:red;\">Hallo Otto!!</span>";  // maskieren escapen
+			
+			var url   = "http://www.standard-icons.com/stock-icons/standard-smile-page.png";
+			var bild  = '<img src="' + url + '" />';
+			
+			var gesamtstring = 'Teilstring' + PI + 'Teilstring' + "Teilstring";
+			
+			var ek = 'Butter Brot Bier Gemüse';
+			
+			// Wahrheitswert Boolean
+			var wahr   = true;
+			var falsch = false;
+			
+			// -------------------------------------------------------
+			// komplexe Datentypen
+			// -------------------------------------------------------
+			
+			// Array
+			var ekzA = ['Butter', 'Brot', 'Bier', 'Gemüse', 1.79, 2.09, 1.55, 1.99];
+			var ekzB = new Array('Butter', 'Brot', 'Bier', 'Gemüse', 1.79, 2.09, 1.55, 1.99);
+			
+			// Objekt
+			var adrA = {vn:'Susi', nn:'Meyer', ort:'Köln', tel:12345678};
+			var adrB = new Object( {vn:'Susi', nn:'Meyer', ort:'Köln', tel:12345678} );
+			
+			// Funktion
+			
+			var koeln = function(){ 
+				alert('KÖLN') 
+			};
+			
+			// FUNKTIONEN
+			
+			function bremen(){
+				alert('Hallo');
+			}
+			
+			// HAUPTPROGRAMM
+		
+		
+		</script>
+	
+	
+	</head>
+	
+	<body>
+		
+		<h3>Datentypen</h3>
+		
+		<ul>
+			
+			<script>
+				// Number
+				document.write('<li>' + mwst + '</li>');
+				document.write('<li>' + PI + '</li>');
+				// String
+				document.write('<li>' + otto + '</li>');
+				document.write('<li>' + susi + '</li>');
+				document.write('<li>' + bild + '</li>');
+				document.write('<li>' + ek + '</li>');
+				// Boolean
+				document.write('<li>' + wahr + '</li>');
+				// Array
+				document.write('<li>' + ekzA + '</li>');
+				document.write('<li>' + ekzA[0] + '</li>');
+				document.write('<li>' + ekzA[1] + '</li>');
+				document.write('<li>' + ekzA[2] + '</li>');
+				document.write('<li>' + ekzA[3] + '</li>');
+				// Objekt
+				document.write('<li>' + adrA + '</li>');
+				document.write('<li>' + adrA.vn + '</li>');
+				document.write('<li>' + adrA.nn + '</li>');
+				// Funktion
+				document.write('<li>' + koeln + '</li>');
+				document.write('<li>' + bremen + '</li>');
+
+				
+			</script>
+			
+			<li>4711</li>
+			<li>4711</li>
+			<li>4711</li>
+			<li>4711</li>
+			
+			<script>
+				document.write('<li>Javascript</li>');
+			</script>
+			
+			
+		</ul>
+		
+		<h3>Ende der Webseite</h3>
+		
+
+	</body>
+	
+
+</html>

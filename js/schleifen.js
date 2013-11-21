@@ -45,12 +45,12 @@ function addBlogEntry() {
 }
 function addDynamicTable() {
     var id = document.getElementById("filltable");
-    var x = parseInt(document.getElementById("counterx").value);
-    var y = parseInt(document.getElementById("countery").value);
+    var reihe = parseInt(document.getElementById("counterx").value);
+    var spalte = parseInt(document.getElementById("countery").value);
     var newTable = document.createElement("table");
-    for (var i=0; i < x; i++){
+    for (var i=0; i < reihe; i++){
         var tr = document.createElement("tr");
-        for(var j=0; j < y; j++){
+        for(var j=0; j < spalte; j++){
             var td = document.createElement("td");
             td.innerText = "hallo"+i+j;
             tr.appendChild(td);

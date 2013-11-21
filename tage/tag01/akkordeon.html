@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+	
+		<meta charset="utf-8" />
+		<title>Tolle Webseite</title>
+		
+		<style>
+			#acc { width:300px; }
+			.item { height:40px; border:1px solid red; cursor:pointer;}
+			#i1 { height:80px; }
+		</style>
+		
+		<script>
+			
+			function eins() {
+				document.getElementById('i1').style.height = '80px';
+				document.getElementById('i2').style.height = '40px';
+				document.getElementById('i3').style.height = '40px';
+				document.getElementById('i4').style.height = '40px';
+				document.getElementById('i5').style.height = '40px';
+			}
+			
+			function zwei() {
+				document.getElementById('i1').style.height = '40px';
+				document.getElementById('i2').style.height = '80px';
+				document.getElementById('i3').style.height = '40px';
+				document.getElementById('i4').style.height = '40px';
+				document.getElementById('i5').style.height = '40px';
+			}
+			
+			function drei() {
+				document.getElementById('i1').style.height = '40px';
+				document.getElementById('i2').style.height = '40px';
+				document.getElementById('i3').style.height = '80px';
+				document.getElementById('i4').style.height = '40px';
+				document.getElementById('i5').style.height = '40px';
+			}
+			
+			function vier() {
+				document.getElementById('i1').style.height = '40px';
+				document.getElementById('i2').style.height = '40px';
+				document.getElementById('i3').style.height = '40px';
+				document.getElementById('i4').style.height = '80px';
+				document.getElementById('i5').style.height = '40px';
+			}
+			
+			function fuenf() {
+				document.getElementById('i1').style.height = '40px';
+				document.getElementById('i2').style.height = '40px';
+				document.getElementById('i3').style.height = '40px';
+				document.getElementById('i4').style.height = '40px';
+				document.getElementById('i5').style.height = '80px';
+			}
+			
+		</script>
+		
+	</head>
+	
+	<body>
+	
+
+		<h3>Akkordeon</h3>
+		
+		<div id="acc">
+			<div id="i1" class="item" onmouseover="eins();">INFO 1</div>
+			<div id="i2" class="item" onmouseover="zwei();">INFO 2</div>
+			<div id="i3" class="item" onmouseover="drei();">INFO 3</div>
+			<div id="i4" class="item" onmouseover="vier();">INFO 4</div>
+			<div id="i5" class="item" onmouseover="fuenf();">INFO 5</div>
+		</div>
+		
+
+	</body>
+	
+
+</html>

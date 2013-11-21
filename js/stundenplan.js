@@ -3,7 +3,7 @@
  */
 
 var stundenplan = [
-    {tag: "Montag", anfang: "8:00", ende: "13:00", fach: "javascript"},
+    {tag: "Montag", anfang: "9:45", ende: "13:00", fach: "javascript"},
     {tag: "Dienstag", anfang: "8:00", ende: "13:00", fach: "javascript"},
     {tag: "Mittwoch", anfang: "8:00", ende: "13:00", fach: "javascript"},
     {tag: "Donnerstag", anfang: "8:00", ende: "13:00", fach: "javascript"},
@@ -13,27 +13,30 @@ var stundenplan = [
     {tag: "Mittwoch", anfang: "13:30", ende: "15:00", fach: "übung"},
     {tag: "Donnerstag", anfang: "13:30", ende: "15:00", fach: "übung"}
 ];
+var wochentage = {"Montag": 1, "Dienstag": 2, "Mittwoch": 3, "Donnerstag": 4, "Freitag": 5};
 
-function stunde_eintragen(stunde){
-    var index, anfang_id, myid;
-    if ("Montag" === stunde.tag) index = "1";
-    if ("Dienstag" === stunde.tag) index = "2";
-    if ("Mittwoch" === stunde.tag) index = "3";
-    if ("Donnerstag" === stunde.tag) index = "4";
-    if ("Freitag" === stunde.tag) index = "5";
-    anfang_id = stunde.anfang.split(":").join("");
-    console.log(anfang_id);
-    myid = anfang_id+"_"+index;
-    console.info(myid);
-    var tabellenzelle = document.getElementById(myid);
-    console.log(tabellenzelle);
-    tabellenzelle.innerText = stunde.fach;
-
+function fuelle_slots(stunde) {
+    // Zeitberechnung über Date objekte
+    return [stunde.anfang];
 }
 
-function alle_eintragen(stundenplan){
+function einheit_eintragen(stunde) {
+    var index, anfang_id, myid;
+    index = wochentage[stunde.tag];
+    _.map(fuelle_slots(stunde), function (anfang) {
+        anfang_id = anfang.split(":").join("");
+        console.log(anfang_id);
+        myid = anfang_id + "_" + index;
+        console.info(myid);
+        var tabellenzelle = document.getElementById(myid);
+        console.log(tabellenzelle);
+        tabellenzelle.innerText = stunde.fach;
+    });
+}
+
+function alle_eintragen(stundenplan) {
     console.log(
-    _.map(stundenplan, stunde_eintragen));
+        _.map(stundenplan, einheit_eintragen));
 }
 
 function zeichne_stundenplan(plan) {
@@ -48,4 +51,3 @@ function zeichne_stundenplan(plan) {
     }
     document.write('</table>');
 }
-;

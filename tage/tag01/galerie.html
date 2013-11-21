@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+	
+		<meta charset="utf-8" />
+		<title>Tolle Webseite</title>
+		
+		<script>
+		
+			// VARIABLEN
+			
+			// FUNKTIONEN
+			
+			function berlin() {
+				document.getElementById('stadt').innerHTML = 'BERLIN';
+				document.getElementById('stadt').style.marginLeft = '50px';
+				document.getElementById('stadt').style.color = 'red';
+				document.getElementById('gross').src = 'galerie/de1.jpg';
+			}
+		
+			function bremen() {
+				// BREMEN - NORD
+				document.getElementById('stadt').innerHTML = 'BREMEN';
+				document.getElementById('stadt').style.color = '#0f0';
+				document.getElementById('stadt').style.marginLeft = '8px';
+				document.getElementById('gross').src = 'galerie/de2.jpg';
+				// BREMEN - SÜD
+				
+			}
+			
+			function koeln() {
+				document.getElementById('stadt').innerHTML = 'KÖLN';
+				document.getElementById('gross').src = 'galerie/de3.jpg';
+			}
+			
+			function alarm(){
+				alert('Handler sind kombinierbar.');
+			}
+		
+		</script>
+		
+	</head>
+	
+	<body>
+	
+		<!-- Das HAUPTPROGRAMM bilden die EventHandler -->
+
+		<h2 id="stadt">Galerie</h2>
+	
+		<img id="gross" src="galerie/de1.jpg" /><br/>
+		<img onmouseover="berlin();" onclick="alarm();" src="galerie/thumb1.jpg" />
+		<img onmouseover="bremen();" src="galerie/thumb2.jpg" />
+		<img onmouseover="koeln();"  src="galerie/thumb3.jpg" />
+		<img src="galerie/thumb4.jpg" />
+		<img src="galerie/thumb5.jpg" />
+
+	
+
+	</body>
+	
+
+</html>

@@ -1,11 +1,10 @@
 @charset "utf-8";
 body {
-
-    font-family: Ribeye;
+font-family: 'Nothing You Could Do', cursive;
 }
 
 #stundenplan {
-    font-size: 80%;
+    font-size: 110%;
     padding: 125px 90px 60px 90px;
     width: 720px;
     height: 510px;

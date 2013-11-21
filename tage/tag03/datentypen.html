@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+	
+		<meta charset="utf-8" />
+		<title>Tolle Webseite</title>
+		
+		<style></style>
+		
+		<script>
+		
+			// Definition
+			var zahl = 12;							// Number
+			var str  = 'Das ist eine Zeichenkette';	// String
+			var wahr = true;						// Boolean
+			var ar   = ['Brot', 'Gemüse', 'Bier'];	// Array
+			var auto = { hersteller:'BMW', typ:'X3' , ort:'München'};  // Objekt
+			var fun  = function(){ alert(4711); };	// Funktion
+		
+			// null
+			// undefined
+		
+		</script>
+	
+	
+	</head>
+	
+	<body>
+		
+		<h3>Datentypen</h3>
+		
+		<script>
+			// Darstellung der Datentypen 
+			document.write('<ul>');
+			document.write('<li>' + zahl + '</li>');
+			document.write('<li>' + str + '</li>');
+			document.write('<li>' + wahr + '</li>');
+			document.write('<li>' + ar + '</li>');
+			document.write('<li>' + auto + '</li>');
+			document.write('<li>' + fun + '</li>');
+			document.write('<li>--------</li>');
+			document.write('<li>' + ar[1] + '</li>');
+			document.write('<li>' + auto.hersteller + '</li>');
+			document.write('<li>' + auto['typ'] + '</li>');  // assoziierte Schreibweise
+			document.write('</ul>');
+		</script>
+		
+
+	</body>
+	
+
+</html>
