@@ -3,11 +3,11 @@
  */
 
 var stundenplan = [
-    {tag: "Montag", anfang: "9:45", ende: "13:00", fach: "javascript"},
-    {tag: "Dienstag", anfang: "8:00", ende: "13:00", fach: "javascript"},
-    {tag: "Mittwoch", anfang: "8:00", ende: "13:00", fach: "javascript"},
-    {tag: "Donnerstag", anfang: "8:00", ende: "13:00", fach: "javascript"},
-    {tag: "Freitag", anfang: "8:00", ende: "13:00", fach: "javascript"},
+    {tag: "Montag", anfang: "09:45", ende: "13:00", fach: "javascript"},
+    {tag: "Dienstag", anfang: "08:00", ende: "13:00", fach: "javascript"},
+    {tag: "Mittwoch", anfang: "08:00", ende: "13:00", fach: "javascript"},
+    {tag: "Donnerstag", anfang: "08:00", ende: "13:00", fach: "javascript"},
+    {tag: "Freitag", anfang: "08:00", ende: "13:00", fach: "javascript"},
     {tag: "Montag", anfang: "13:30", ende: "15:00", fach: "übung"},
     {tag: "Dienstag", anfang: "13:30", ende: "15:00", fach: "übung"},
     {tag: "Mittwoch", anfang: "13:30", ende: "15:00", fach: "übung"},
@@ -25,9 +25,11 @@ function fuelle_slots(stunde) {
     _.map(slots, function(slot){
         var h = slot.split(":")[0];
         var m = slot.split(":")[1];
-        if(h>=anfang_h && h<=ende_stunde && m>=anfang_m && m<=ende_minute){
+        if(h>=anfang_h && h<=ende_stunde){
             console.log(slot);
-            slotarr.push(slot);
+            if(m>=anfang_m && m<=ende_minute) {
+                slotarr.push(slot);
+            }
         }
     });
     return slotarr;

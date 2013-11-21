@@ -56,10 +56,19 @@
       <file leaf-file-name="stundenplan.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/stundenplan.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="64" selection-start="873" selection-end="873" vertical-scroll-proportion="0.35789475" vertical-offset="102" max-vertical-offset="1224">
+            <state line="28" column="12" selection-start="1321" selection-end="1321" vertical-scroll-proportion="0.6905263" vertical-offset="148" max-vertical-offset="1258">
               <folding>
-                <marker date="1385034872906" expanded="true" signature="2252:2263" placeholder="..." />
+                <marker date="1385035513002" expanded="true" signature="2290:2301" placeholder="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lodash.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bower_components/lodash/dist/lodash.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3441" column="0" selection-start="116459" selection-end="116459" vertical-scroll-proportion="0.0" vertical-offset="58203" max-vertical-offset="112013">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -473,7 +482,11 @@
       <created>1385033110507</created>
       <updated>1385033110507</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Hausaufgabe Stundenplan hälfte fertig 2">
+      <created>1385034889772</created>
+      <updated>1385034889772</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -515,28 +528,15 @@
     <MESSAGE value=".gitignore added and .idea ignored" />
     <MESSAGE value="Hausaufgabe Stundenplan mit Endezeit" />
     <MESSAGE value="Hausaufgabe Stundenplan hälfte fertig" />
-    <option name="LAST_COMMIT_MESSAGE" value="Hausaufgabe Stundenplan hälfte fertig" />
+    <MESSAGE value="Hausaufgabe Stundenplan hälfte fertig 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Hausaufgabe Stundenplan hälfte fertig 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/js/stundenplan.js</url>
-          <line>20</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="9" />
+      <option name="time" value="12" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="4" selection-start="30" selection-end="30" vertical-scroll-proportion="0.0" vertical-offset="66" max-vertical-offset="572">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="35" column="59" selection-start="1144" selection-end="1144" vertical-scroll-proportion="0.0" vertical-offset="770" max-vertical-offset="1012">
@@ -638,11 +638,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/bower_components/lodash/dist/lodash.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3441" column="0" selection-start="116459" selection-end="116459" vertical-scroll-proportion="0.0" vertical-offset="58203" max-vertical-offset="112013">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/stundenplan.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="64" selection-start="873" selection-end="873" vertical-scroll-proportion="0.35789475" vertical-offset="102" max-vertical-offset="1224">
+        <state line="28" column="12" selection-start="1321" selection-end="1321" vertical-scroll-proportion="0.6905263" vertical-offset="148" max-vertical-offset="1258">
           <folding>
-            <marker date="1385034872906" expanded="true" signature="2252:2263" placeholder="..." />
+            <marker date="1385035513002" expanded="true" signature="2290:2301" placeholder="..." />
           </folding>
         </state>
       </provider>
