@@ -14,10 +14,17 @@ var stundenplan = [
     {tag: "Donnerstag", anfang: "13:30", ende: "15:00", fach: "übung"}
 ];
 var wochentage = {"Montag": 1, "Dienstag": 2, "Mittwoch": 3, "Donnerstag": 4, "Freitag": 5};
+var slots = {"8:00":[8,0],"8:45":[8,45],"9:45":[9,45],"10:30":[10,30], "11:30":[11,30], "12:15":[12,15],
+    "13:30":[13,30],"14:15":[14,15],"15:15":[15,15],"16:15":[16,15]};
 
 function fuelle_slots(stunde) {
-    // Zeitberechnung über Date objekte
-    return [stunde.anfang];
+    var anfang = slots[stunde.anfang];
+    var ende_stunde = stunde.ende.split(":")[0];
+    var ende_minute = stunde.ende.split(":")[1];
+    //
+    var slotarr = [stunde.anfang];
+    // slotarr.push(string
+    return slotarr;
 }
 
 function einheit_eintragen(stunde) {
