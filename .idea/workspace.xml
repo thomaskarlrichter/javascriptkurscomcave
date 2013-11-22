@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c19861c5-4da0-4687-9d1b-3479942f697d" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tage/tag05/kfz_selector.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/stundenplan.js" afterPath="$PROJECT_DIR$/js/stundenplan.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="uebung1.iws" />
@@ -39,16 +39,25 @@
       <file leaf-file-name="stundenplan.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/stundenplan.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="9" selection-start="1139" selection-end="1140" vertical-scroll-proportion="-24.192308" vertical-offset="0" max-vertical-offset="1870">
+            <state line="37" column="9" selection-start="1139" selection-end="1140" vertical-scroll-proportion="-18.923077" vertical-offset="137" max-vertical-offset="1870">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="stundenplan.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="stundenplan.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/stundenplan.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="50" selection-start="1263" selection-end="1263" vertical-scroll-proportion="0.47073475" vertical-offset="47" max-vertical-offset="952">
+            <state line="29" column="36" selection-start="1317" selection-end="1317" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1100">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="kfz_selector.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tage/tag05/kfz_selector.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="60" column="20" selection-start="1918" selection-end="1918" vertical-scroll-proportion="0.5104712" vertical-offset="630" max-vertical-offset="1853">
               <folding />
             </state>
           </provider>
@@ -86,6 +95,8 @@
         <option value="$PROJECT_DIR$/stundenplan.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/js/stundenplan.js" />
+        <option value="$PROJECT_DIR$/tage/tag05/kfz_vorlage.html" />
+        <option value="$PROJECT_DIR$/tage/tag05/kfz_selector.html" />
       </list>
     </option>
   </component>
@@ -124,7 +135,7 @@
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1" splitterProportion="0.5">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -135,7 +146,84 @@
       <autoscrollFromSource />
       <sortByType />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uebung1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uebung1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uebung1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uebung1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uebung1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tag05" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uebung1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uebung1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uebung1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uebung1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="45" />
@@ -160,7 +248,7 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
-    <property name="options.lastSelected" value="File.Encoding" />
+    <property name="options.lastSelected" value="editor" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="options.searchVisible" value="true" />
@@ -412,7 +500,11 @@
       <created>1385107860093</created>
       <updated>1385107860093</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Hausaufgabe Stundenplan ende_date bug (&gt;=) gefixed">
+      <created>1385109457969</created>
+      <updated>1385109457969</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -425,7 +517,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30267859" sideWeight="0.6043426" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30267859" sideWeight="0.6043426" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39565742" sideWeight="0.7735125" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30267859" sideWeight="0.2870929" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32810616" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -457,7 +549,8 @@
     <MESSAGE value="Hausaufgabe Stundenplan hälfte fertig 2" />
     <MESSAGE value="Hausaufgabe Stundenplan hälfte fertig 2 hier stecke ich" />
     <MESSAGE value="Hausaufgabe Stundenplan variablennamen verbessert, ungenutzten code gelöscht" />
-    <option name="LAST_COMMIT_MESSAGE" value="Hausaufgabe Stundenplan variablennamen verbessert, ungenutzten code gelöscht" />
+    <MESSAGE value="Hausaufgabe Stundenplan ende_date bug (&gt;=) gefixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Hausaufgabe Stundenplan ende_date bug (&gt;=) gefixed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -465,11 +558,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="59" selection-start="1144" selection-end="1144" vertical-scroll-proportion="0.0" vertical-offset="770" max-vertical-offset="1012" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="0" selection-start="44" selection-end="44" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="595" />
@@ -532,13 +620,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stundenplan.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="9" selection-start="1139" selection-end="1140" vertical-scroll-proportion="-24.192308" vertical-offset="0" max-vertical-offset="1870">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="21" selection-start="379" selection-end="379" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
@@ -548,7 +629,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/stundenplan.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="50" selection-start="1263" selection-end="1263" vertical-scroll-proportion="0.47073475" vertical-offset="47" max-vertical-offset="952">
+        <state line="29" column="36" selection-start="1317" selection-end="1317" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1100">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stundenplan.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="9" selection-start="1139" selection-end="1140" vertical-scroll-proportion="-18.923077" vertical-offset="137" max-vertical-offset="1870">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tage/tag05/kfz_selector.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="60" column="20" selection-start="1918" selection-end="1918" vertical-scroll-proportion="0.5104712" vertical-offset="630" max-vertical-offset="1853">
           <folding />
         </state>
       </provider>

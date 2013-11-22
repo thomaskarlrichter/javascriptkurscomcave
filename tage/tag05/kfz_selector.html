@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+	
+		<meta charset='utf-8' />
+		<title>KFZ-Selektor</title>
+		
+		<style></style>
+		
+		<script>
+			
+			// VARIABLEN
+			
+			// Datenkonzept 1
+			var h = ['Audi', 'Fiat', 'VW', 'Skoda'];
+			var t = [
+				['A1', 'A2', 'A3', 'A4', 'Q3', 'TT'],
+				['Punto', '500', 'Panda', 'Bravo'],
+				['Polo', 'Golf IV', 'Golf V', 'Passat Variant'],
+				['Fabia', 'Octavia Combi', 'Roomster']
+			];
+			
+			// Datenkonzept 2
+			var cars = [
+				['Audi',  'A1', 'A2', 'A3', 'A4', 'Q3', 'TT'],
+				['Fiat',  'Punto', '500', 'Panda', 'Bravo'],
+				['VW',    'Polo','Golf IV', 'Golf V', 'Passat Variant'],
+				['Skoda', 'Fabia', 'Octavia Combi', 'Roomster']
+			];
+			
+			// Datenkonzept 3
+			var autos = [
+				['Audi',  ['A1', 'Toller A1'], ['A2', 'Toller A2'], ['A3', 'Toller A3'], ['A4', 'Toller A4'], ['A4', 'Toller A4'], ['TT', 'Toller TT']],
+				['Fiat',  ['Punto', 'Toller Punto'], ['500', 'Toller 500'], ['Panda', 'Toller Panda'], ['Bravo', 'Toller Bravo']],
+				['VW',    ['Polo', 'Toller Polo'], ['Golf IV', 'Toller Golf 4'], ['Golf V', 'Toller Golf 5'], ['Passat', 'Toller Passat']],
+				['Skoda', ['Fabia', 'Toller Fabia'], ['Oktavia', 'Toller Oktavia'], ['Roomster', 'Toller Roomster']]
+			];
+		
+
+		
+			// FUNKTIONEN
+		
+			function autoHersteller(){
+				var her = document.getElementById('hersteller').value;
+
+				var html='<option value="0">Bitte wählen</option>';
+				for(var n=1; n<autos[her].length; n++) {
+					html+='<option value="'+ n +'">'+autos[her][n][0]+'</option>';
+				}
+				document.getElementById('typ').innerHTML = html;
+				
+			}
+		
+			function autoTyp(){
+                var her = document.getElementById('hersteller');
+				var typ = document.getElementById('typ');
+				document.getElementById('ausgabe').innerHTML = autos[her.value][typ.value][1];
+                setTimeout(function(){
+                    document.getElementById('ausgabe').innerHTML = "";
+                    her.selectedIndex = 0;
+                    typ.innerHTML = "";
+                }, 1000);
+			}
+		
+		
+		
+			// HAUPTPROGRAMM
+		</script>
+	
+	
+	</head>
+	
+	<body>
+		
+		<h3>Auto-Selektor (Datenkonzept 3)</h3>
+		
+		<form>
+			
+			Modell <select id="hersteller" onchange="autoHersteller();">
+            <option>Bitte wählen</option>
+				<script>
+
+					for(var n=0; n<autos.length; n++){
+						document.write('<option value="'+ n +'">'+autos[n][0]+'</option>');
+					}
+				</script>
+			</select>
+			
+			Typ <select id="typ" onchange="autoTyp();">
+            </select>
+
+		</form>
+        <br/>
+        <br/>
+        <div id="ausgabe"></div>
+		
+		
+		
+
+	</body>
+	
+
+</html>

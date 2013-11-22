@@ -15,32 +15,26 @@ var stundenplan = [
 ];
 var wochentage = {"Montag": 1, "Dienstag": 2, "Mittwoch": 3, "Donnerstag": 4, "Freitag": 5};
 var slots = ["08:00", "08:45", "09:45", "10:30", "11:30", "12:15",
-             "13:30", "14:15", "15:15","16:15"];
+             "13:30", "14:15", "15:15", "16:15"];
 
 function reduziere_slots(stunde) {
     var DUMMYDAY = "1.1.2000 ";
     var anfang_date = new Date(DUMMYDAY + stunde.anfang);
     var ende_date = new Date(DUMMYDAY + stunde.ende);
-    var fach_slots = _.filter(slots, function(slot){
+    return _.filter(slots, function(slot){
         var slot_date = new Date(DUMMYDAY + slot);
-        if(anfang_date <= slot_date && ende_date > slot_date){
-            return true;
-        } else {
-            return false;
-        }
+        return anfang_date <= slot_date && ende_date > slot_date;
     });
-    return fach_slots;
 }
 
 function einheit_eintragen(stunde) {
     var index, anfang_id, myid, fachstunden;
     index = wochentage[stunde.tag];
-    fachstunden =reduziere_slots(stunde);
+    fachstunden = reduziere_slots(stunde);
     _.map(fachstunden, function (anfang) {
         anfang_id = anfang.split(":").join("");
         myid = anfang_id + "_" + index;
-        var tabellenzelle = document.getElementById(myid);
-        tabellenzelle.innerText = stunde.fach;
+        document.getElementById(myid).innerText = stunde.fach;
     });
 }
 
