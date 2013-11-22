@@ -4,7 +4,7 @@ font-family: 'Nothing You Could Do', cursive;
 }
 
 #stundenplan {
-    font-size: 110%;
+    font-size: 100%;
     padding: 125px 90px 60px 90px;
     width: 720px;
     height: 510px;
@@ -17,6 +17,6 @@ font-family: 'Nothing You Could Do', cursive;
     height: 20px;
 }
 #stundenplan td {
-    text-align: center;
+    text-align: right;
    /* border: 2px solid blue; */
 }
