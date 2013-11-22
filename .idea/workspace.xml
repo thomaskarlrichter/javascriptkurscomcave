@@ -26,19 +26,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="schleifen.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tage/tag03/schleifen.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="5" selection-start="21" selection-end="21" vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="3366">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="0" selection-start="73" selection-end="73" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
+            <state line="4" column="0" selection-start="73" selection-end="73" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="476">
               <folding />
             </state>
           </provider>
@@ -47,7 +38,7 @@
       <file leaf-file-name="stundenplan.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/stundenplan.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="110" selection-start="198" selection-end="198" vertical-scroll-proportion="2.6153846" vertical-offset="153" max-vertical-offset="1870">
+            <state line="37" column="9" selection-start="1139" selection-end="1140" vertical-scroll-proportion="-24.192308" vertical-offset="0" max-vertical-offset="1870">
               <folding />
             </state>
           </provider>
@@ -56,36 +47,7 @@
       <file leaf-file-name="stundenplan.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/stundenplan.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="12" selection-start="1321" selection-end="1321" vertical-scroll-proportion="0.6905263" vertical-offset="148" max-vertical-offset="1258">
-              <folding>
-                <marker date="1385035513002" expanded="true" signature="2290:2301" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="lodash.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bower_components/lodash/dist/lodash.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3441" column="0" selection-start="116459" selection-end="116459" vertical-scroll-proportion="0.0" vertical-offset="58203" max-vertical-offset="112013">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="schleifen.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/schleifen.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="14" selection-start="1840" selection-end="1840" vertical-scroll-proportion="0.0" vertical-offset="663" max-vertical-offset="1173">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="59" selection-start="1144" selection-end="1144" vertical-scroll-proportion="-14.384615" vertical-offset="221" max-vertical-offset="782">
+            <state line="10" column="45" selection-start="483" selection-end="483" vertical-scroll-proportion="0.13416149" vertical-offset="62" max-vertical-offset="935">
               <folding />
             </state>
           </provider>
@@ -486,29 +448,33 @@
       <created>1385034889772</created>
       <updated>1385034889772</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Hausaufgabe Stundenplan hälfte fertig 2 hier stecke ich">
+      <created>1385035590702</created>
+      <updated>1385035590702</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="0" width="1182" height="984" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32810616" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293124" sideWeight="0.6883929" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30267859" sideWeight="0.6043426" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39565742" sideWeight="0.7735125" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39565742" sideWeight="0.7735125" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30267859" sideWeight="0.2870929" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32810616" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298122" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32810616" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3273165" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -529,7 +495,8 @@
     <MESSAGE value="Hausaufgabe Stundenplan mit Endezeit" />
     <MESSAGE value="Hausaufgabe Stundenplan hälfte fertig" />
     <MESSAGE value="Hausaufgabe Stundenplan hälfte fertig 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Hausaufgabe Stundenplan hälfte fertig 2" />
+    <MESSAGE value="Hausaufgabe Stundenplan hälfte fertig 2 hier stecke ich" />
+    <option name="LAST_COMMIT_MESSAGE" value="Hausaufgabe Stundenplan hälfte fertig 2 hier stecke ich" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -539,68 +506,47 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="59" selection-start="1144" selection-end="1144" vertical-scroll-proportion="0.0" vertical-offset="770" max-vertical-offset="1012">
-          <folding />
-        </state>
+        <state line="35" column="59" selection-start="1144" selection-end="1144" vertical-scroll-proportion="0.0" vertical-offset="770" max-vertical-offset="1012" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="44" selection-end="44" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="595">
-          <folding />
-        </state>
+        <state line="3" column="0" selection-start="44" selection-end="44" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="595" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="59" selection-start="1144" selection-end="1144" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="782">
-          <folding />
-        </state>
+        <state line="35" column="59" selection-start="1144" selection-end="1144" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="782" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="18" selection-start="739" selection-end="739" vertical-scroll-proportion="0.0" vertical-offset="7" max-vertical-offset="595">
-          <folding />
-        </state>
+        <state line="22" column="18" selection-start="739" selection-end="739" vertical-scroll-proportion="0.0" vertical-offset="7" max-vertical-offset="595" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="59" selection-start="1144" selection-end="1144" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="782">
-          <folding />
-        </state>
+        <state line="35" column="59" selection-start="1144" selection-end="1144" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="782" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="31" selection-start="559" selection-end="559" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595">
-          <folding />
-        </state>
+        <state line="17" column="31" selection-start="559" selection-end="559" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595" />
       </provider>
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="210" selection-end="210" vertical-scroll-proportion="0.0" vertical-offset="269" max-vertical-offset="20218">
-          <folding />
-        </state>
+        <state line="20" column="0" selection-start="210" selection-end="210" vertical-scroll-proportion="0.0" vertical-offset="269" max-vertical-offset="20218" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="5" selection-start="5" selection-end="5" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
-          <folding />
-        </state>
+        <state line="0" column="5" selection-start="5" selection-end="5" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tage/tag02/datentypen.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2312">
-          <folding>
-            <marker date="1384855350039" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1384855350039" expanded="false" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2312" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
@@ -612,30 +558,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tage/tag03/schleifen.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="5" selection-start="21" selection-end="21" vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="3366">
-          <folding />
-        </state>
+        <state line="1" column="5" selection-start="21" selection-end="21" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="3366" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/schleifen.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="14" selection-start="1840" selection-end="1840" vertical-scroll-proportion="0.0" vertical-offset="663" max-vertical-offset="1173">
-          <folding />
-        </state>
+        <state line="48" column="14" selection-start="1840" selection-end="1840" vertical-scroll-proportion="0.0" vertical-offset="663" max-vertical-offset="1173" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="59" selection-start="1144" selection-end="1144" vertical-scroll-proportion="-14.384615" vertical-offset="221" max-vertical-offset="782">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stundenplan.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="110" selection-start="198" selection-end="198" vertical-scroll-proportion="2.6153846" vertical-offset="153" max-vertical-offset="1870">
-          <folding />
-        </state>
+        <state line="35" column="59" selection-start="1144" selection-end="1144" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="782" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bower_components/lodash/dist/lodash.js">
@@ -645,12 +578,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/stundenplan.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="9" selection-start="1139" selection-end="1140" vertical-scroll-proportion="-24.192308" vertical-offset="0" max-vertical-offset="1870">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/stundenplan.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="12" selection-start="1321" selection-end="1321" vertical-scroll-proportion="0.6905263" vertical-offset="148" max-vertical-offset="1258">
-          <folding>
-            <marker date="1385035513002" expanded="true" signature="2290:2301" placeholder="..." />
-          </folding>
+        <state line="10" column="45" selection-start="483" selection-end="483" vertical-scroll-proportion="0.13416149" vertical-offset="62" max-vertical-offset="935">
+          <folding />
         </state>
       </provider>
     </entry>
