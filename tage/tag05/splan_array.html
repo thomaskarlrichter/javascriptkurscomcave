@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+	
+		<meta charset="utf-8" />
+		<title>Tolle Webseite</title>
+		
+		<style>
+			#plan { width:500px; height:356px; background-image:url(stundenplan.jpg);}
+			#plan table { padding: 103px 0 0 63px;}
+			#plan table tr { font-family:arial, sans-serife; font-size:10px; line-height:17px;}
+			#plan .zeit { width:35px; }
+			#plan .tag { width:65px; }
+		</style>
+		
+		<script>
+			
+			var zeit = ['08.00', '08.45', '09.30', '09.45', '10.30', '11.15', '11.45', '12.30', 'zeit'];
+			var mo   = ['Deutsch', 'Englisch', '---', 'Sport', 'Sport', '---', 'Physik', 'Mathe', 'tag'];
+			var di   = ['---', '---', '---', 'Chemie', 'Biologie', '---', 'Englisch', 'Englisch', 'tag'];
+			var mi   = ['Mathe', 'Mathe', '---', 'Biologie', 'Physik', '---', '---', '---', 'tag'];
+			var dn   = ['---', 'Englisch', '---', 'Sport', 'Sport', '---', 'Physik', '---', 'tag'];
+			var fr   = ['Chemie', 'Physik', '---', 'Kunst', 'Kunst', '---', '---', '---', 'tag'];
+		
+			var plan = [zeit, mo, di, mi, dn, fr];
+		
+			var daten = [
+				['08.00',   '08.45',     '09.30', '09.45',    '10.30',   '11.15',  '11.45',    '12.30',    'zeit'],
+				['Deutsch', 'Englisch',  '---',   'Sport',    'Sport',    '---',   'Physik',   'Mathe',    'tag'],
+				['---',      '---',      '---',   'Chemie',   'Biologie', '---',   'Englisch', 'Englisch', 'tag'],
+				['Mathe',    'Mathe',    '---',   'Biologie', 'Physik',   '---',   '---',      '---',      'tag'],
+				['---',      'Englisch', '---',   'Sport',    'Sport',    '---',   'Physik',   '---',      'tag'],
+				['Chemie',   'Physik',   '---',   'Kunst',    'Kunst',    '---',   '---',      '---',      'tag']
+			];
+		
+		
+		</script>
+	
+	
+	</head>
+	
+	<body>
+		
+		<h3>Stundenplan</h3>
+		
+		<div id="plan">
+		<script>
+			document.write('<table border="0">');
+			for(var r=0; r<7; r++){
+				document.write('<tr>');
+					for(var s=0; s<6; s++){
+						document.write('<td class="'+plan[s][8]+'">'+plan[s][r]+'</td>');
+					}
+				document.write('</tr>');
+			}
+
+			document.write('</table>');
+
+		</script>
+		</div>
+		
+		<h3>Ende der Webseite</h3>
+		
+
+	</body>
+	
+
+</html>

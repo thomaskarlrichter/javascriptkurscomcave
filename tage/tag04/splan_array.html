@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+	
+		<meta charset="utf-8" />
+		<title>Tolle Webseite</title>
+		
+		<style>
+			#plan { width:500px; height:356px; background-image:url(stundenplan.jpg);}
+			#plan table { padding: 103px 0 0 63px;}
+			#plan table tr { font-family:arial, sans-serife; font-size:10px; line-height:17px;}
+			#plan .zeit { width:35px; }
+			#plan .tag { width:65px; }
+		</style>
+		
+		
+		<script>
+			
+			var zeit = ['08.00', '08.45', '09.30', '09.45', '10.30', '11.15', '11.45', '12.30'];
+			var mo   = ['Deutsch', 'Englisch', '---', 'Sport', 'Sport', '---', 'Physik', 'Mathe'];
+			var di   = ['---', '---', '---', 'Chemie', 'Biologie', '---', 'Englisch', 'Englisch'];
+			var mi   = ['Mathe', 'Mathe', '---', 'Biologie', 'Physik', '---', '---', '---'];
+			var dn   = ['---', 'Englisch', '---', 'Sport', 'Sport', '---', 'Physik', '---'];
+			var fr   = ['Chemie', 'Physik', '---', 'Kunst', 'Kunst', '---', '---', '---'];
+		
+		</script>
+	
+	
+	</head>
+	
+	<body>
+		
+		<h3>Stundenplan</h3>
+		
+		<div id="plan">
+		<script>
+			document.write('<table border="0">');
+			document.write('<tr>');
+				document.write('<td>ZEIT</td>');
+				document.write('<td>MON</td>');
+				document.write('<td>DIE</td>');
+				document.write('<td>MIT</td>');
+				document.write('<td>DON</td>');
+				document.write('<td>FRE</td>');
+			document.write('<tr>');
+			for(var r=0; r<7; r++){
+				document.write('<tr>');
+					document.write('<td class="zeit">'+zeit[r]+'</td>');
+					document.write('<td class="tag">'+mo[r]+'</td>');
+					document.write('<td class="tag">'+di[r]+'</td>');
+					document.write('<td class="tag">'+mi[r]+'</td>');
+					document.write('<td class="tag">'+dn[r]+'</td>');
+					document.write('<td class="tag">'+fr[r]+'</td>');
+				document.write('</tr>');
+			}
+
+			document.write('</table>');
+
+		</script>
+		</div>
+		
+		<h3>Ende der Webseite</h3>
+		
+
+	</body>
+	
+
+</html>

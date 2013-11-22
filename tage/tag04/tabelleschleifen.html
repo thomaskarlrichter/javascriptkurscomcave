@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+	
+		<meta charset="utf-8" />
+		<title>Tolle Webseite</title>
+		
+		<style>
+			.item { width:20px; height:20px; border:1px solid red; margin:1px; float:left; }
+			.clearer { clear:both; }
+		</style>
+		
+		
+		<script>
+		
+			var ekz = ['Brot', 'Gemüse', 'Bier', 11,22,33, false, true];
+		
+			// Arrays im Array
+			var ar = [ 
+				[11,12,13], 
+				[21,22,23], 
+				[31,32,33] 
+			];
+		
+			//alert(   ar[1][0]   );
+		
+		</script>
+	
+	
+	</head>
+	
+	<body>
+		
+		<script>
+			document.write('<table border="1">');
+			for(var r=0; r<3; r++){
+				document.write('<tr>');
+				for(var s=0; s<3; s++) {
+					document.write('<td>'+ ar[s][r]+'</td>');
+				}
+				document.write('</tr>');
+			}
+			document.write('</table>');
+		</script>
+		
+	
+		<script>
+		
+			document.write('<div class="spiel">');
+			for(var row=0; row<3; row++){
+				for(var col=0; col<3; col++){
+					document.write('<div class="item">'+ar[row][col]+'</div>');
+				}
+				document.write('<div class="clearer"></div>');
+			}
+			document.write('</div>');
+		
+		</script>
+
+
+		
+	</body>
+	
+
+</html>

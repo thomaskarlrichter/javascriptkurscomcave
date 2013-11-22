@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+	
+		<meta charset='utf-8' />
+		<title>Tolle Webseite</title>
+		
+		<style></style>
+		
+		<script>
+			
+			// VARIABLEN
+			
+			// Datenkonzept 1
+			var h = ['Audi', 'Fiat', 'VW', 'Skoda'];
+			var t = [
+				['A1', 'A2', 'A3', 'A4', 'Q3', 'TT'],
+				['Punto', '500', 'Panda', 'Bravo'],
+				['Polo', 'Golf IV', 'Golf V', 'Passat Variant'],
+				['Fabia', 'Octavia Combi', 'Roomster']
+			];
+			
+			// Datenkonzept 2
+			var cars = [
+				['Audi',  'A1', 'A2', 'A3', 'A4', 'Q3', 'TT', '80', '100'],
+				['Fiat',  'Punto', '500', 'Panda', 'Bravo'],
+				['VW',    'Polo','Golf IV', 'Golf V', 'Passat Variant'],
+				['Skoda', 'Fabia', 'Octavia Combi', 'Roomster']
+			];
+			
+			// Datenkonzept 3
+			var autos = [
+				['Audi',  ['A1', 'Toller A1'], ['A2', 'Toller A2'], ['A3', 'Toller A3'], ['A4', 'Toller A4'], ['Q3', 'Toller Q3'], ['TT', 'Toller TT']],
+				['Fiat',  ['Punto', 'Toller Punto'], ['500', 'Toller 500'], ['Panda', 'Toller Panda'], ['Bravo', 'Toller Bravo']],
+				['VW',    ['Polo', 'Toller Polo'], ['Golf IV', 'Toller Golf4'], ['Golf V', 'Toller Golf 5'], ['Passat', 'Toller Passat']],
+				['Skoda', ['Fabia', 'Toller Fabia'], ['Oktavia', 'Toller Oktavia'], ['Roomster', 'Toller Roomster']]
+			];
+		
+			var her = 1;
+			var typ = 1;
+			//alert(  autos[her][typ+1][1]  );
+		
+			// FUNKTIONEN
+		
+			function autoHersteller(){
+				her = document.getElementById('hersteller').value;
+				//alert( her );
+				
+				var html=''; 
+				for(var n=1; n<cars[her].length; n++) {
+					html+='<option value="'+(n-1)+'">'+cars[her][n]+'</option>';
+				}
+				
+				document.getElementById('typ').innerHTML = html;
+				
+			}
+		
+			function autoTyp(){
+				typ = document.getElementById('typ').value;
+				alert(her + '' +typ);
+				
+				document.getElementById('ausgabe').innerHTML = autos[2][1][1];
+				
+			}
+		
+		
+		
+			// HAUPTPROGRAMM
+		</script>
+	
+	
+	</head>
+	
+	<body>
+		
+		<h3>MENU mit Fehlern</h3>
+		
+		<form>
+			
+			Hersteller <select id="hersteller" onchange="autoHersteller();">
+				<option>Bitte wählen</option>
+				<script>
+					for(var n=0; n<cars.length; n++){
+						document.write('<option value="'+n+'">'+cars[n][0]+'</option>');
+					}
+				</script>
+			</select>
+			
+			Typ <select id="typ" onchange="autoTyp();"></select>
+			
+		</form>
+		<div id="ausgabe"></div>
+		
+		
+
+	</body>
+	
+
+</html>

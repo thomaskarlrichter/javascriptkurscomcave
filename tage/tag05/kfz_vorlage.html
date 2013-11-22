@@ -4,7 +4,7 @@
 	<head>
 	
 		<meta charset='utf-8' />
-		<title>KFZ-Selektor</title>
+		<title>Tolle Webseite</title>
 		
 		<style></style>
 		
@@ -33,7 +33,7 @@
 			var autos = [
 				['Audi',  ['A1', 'Toller A1'], ['A2', 'Toller A2'], ['A3', 'Toller A3'], ['A4', 'Toller A4'], ['A4', 'Toller A4'], ['TT', 'Toller TT']],
 				['Fiat',  ['Punto', 'Toller Punto'], ['500', 'Toller 500'], ['Panda', 'Toller Panda'], ['Bravo', 'Toller Bravo']],
-				['VW',    ['Polo', 'Toller Polo'], ['Golf IV', 'Toller Golf 4'], ['Golf V', 'Toller Golf 5'], ['Passat', 'Toller Passat']],
+				['VW',    ['Polo', 'Toller Polo'], ['Golf IV', 'Toller Golf4'], ['Golf V', 'Toller Golf 5'], ['Passat', 'Toller Passat']],
 				['Skoda', ['Fabia', 'Toller Fabia'], ['Oktavia', 'Toller Oktavia'], ['Roomster', 'Toller Roomster']]
 			];
 		
@@ -43,28 +43,20 @@
 		
 			function autoHersteller(){
 				var her = document.getElementById('hersteller').value;
-                if (her === "Bitte wählen") {
-                    document.getElementById('typ').innerHTML = "";
-                    return true;
-                }
-
-				var html='<option value="0">Bitte wählen</option>';
-				for(var n=1; n<autos[her].length; n++) {
-					html+='<option value="'+ n +'">'+autos[her][n][0]+'</option>';
+				alert(her);
+				
+				var html=''; 
+				for(var n=1; n<3; n++) {
+					html+='<option>'+cars[her][n]+'</option>';
 				}
+
 				document.getElementById('typ').innerHTML = html;
 				
 			}
 		
 			function autoTyp(){
-                var her = document.getElementById('hersteller');
-				var typ = document.getElementById('typ');
-				document.getElementById('ausgabe').innerHTML = autos[her.value][typ.value][1];
-                setTimeout(function(){
-                    document.getElementById('ausgabe').innerHTML = "";
-                    her.selectedIndex = 0;
-                    typ.innerHTML = "";
-                }, 1000);
+				var typ = document.getElementById('typ').value;
+				alert(typ);
 			}
 		
 		
@@ -77,27 +69,22 @@
 	
 	<body>
 		
-		<h3>Auto-Selektor (Datenkonzept 3)</h3>
+		<h3>MENU mit Fehlern</h3>
 		
 		<form>
 			
 			Modell <select id="hersteller" onchange="autoHersteller();">
-            <option>Bitte wählen</option>
 				<script>
-
-					for(var n=0; n<autos.length; n++){
-						document.write('<option value="'+ n +'">'+autos[n][0]+'</option>');
+					for(var n=0; n<3; n++){
+						document.write('<option>'+n+'</option>');
 					}
 				</script>
 			</select>
 			
-			Typ <select id="typ" onchange="autoTyp();">
-            </select>
-
+			Typ <select id="typ" onchange="autoTyp();"></select>
+			
+			
 		</form>
-        <br/>
-        <br/>
-        <div id="ausgabe"></div>
 		
 		
 		

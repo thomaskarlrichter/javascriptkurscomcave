@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+	
+		<meta charset="utf-8" />
+		<title>Tolle Webseite</title>
+		
+		<style>
+			.item { width:20px; height:20px; border:1px solid red; margin:1px; float:left; }
+			.clearer { clear:both; }
+		</style>
+		
+		
+		<script>
+		
+			// Startbedingung , Endbedingung , Increment/Decrement
+			
+			// for(Startbedingung; Endbedingung; Increment/Decrement) { }
+			// while(Endbedingung) {}	// Kopfgesteuerte Schleife
+			// do{}while(Endbedingung)	// Fußgesteuerte Schleife
+			// for in , each
+		
+			var a = 12 + 3;  // 15
+				a = a + 5;	 // 20
+				a += 3;		 // 23
+				a *= 2;		 // 46
+				a++;		 // 47
+				a++;		 // 48
+				
+			//alert(a);  // 48
+			
+			var b = '<h1>';
+				b = b + 'Hallo Welt';
+				b += '</h1>';
+			//alert(b); // <h1>Hallo Welt</h1>
+		
+		</script>
+	
+	
+	</head>
+	
+	<body>
+		
+		<h3>Schleifen</h3>
+		
+		<h1>LISTEN</h1>
+		
+		<ul>
+			<li>4711</li>
+			<li>4711</li>
+			<li>4711</li>
+			<li>4711</li>
+		</ul>
+		
+		<script>
+		
+			var html = '<ul>';
+			html += '<li>1111</li>';
+			html += '<li>1111</li>';
+			html += '<li>1111</li>';
+			html += '</ul>';
+			document.write(html);
+			
+			var tage = ['MONTAG', 'DIENSTAG', 'MITTWOCH', 'DONNERSTAG', 'FREITAG', 'SAMSTAG', 'SONNTAG'];
+			var liste = '<ul>';
+			for(var n=0; n<7; n++){
+				liste += '<li>' + tage[n] + '</li>';
+			}
+			liste += '</ul>';
+			document.write(liste);
+				
+		</script>
+		
+		<h1>TABELLEN</h1>
+		
+		<table border="1">
+		
+			<tr>
+				<td>4711</td>
+				<td>4711</td>
+				<td>4711</td>
+				<td>4711</td>
+			</tr>
+			
+			<tr>
+				<td>4711</td>
+				<td>4711</td>
+				<td>4711</td>
+				<td>4711</td>
+			</tr>
+			
+			<tr>
+				<td>4711</td>
+				<td>4711</td>
+				<td>4711</td>
+				<td>4711</td>
+			</tr>
+			
+		</table>
+		<br/><br/>
+		
+		<script>
+			document.write('<table border="1">');
+			for(var r=0; r<5; r++){
+				document.write('<tr>');
+				for(var s=0; s<10; s++) {
+					document.write('<td>'+r+s+'</td>');
+				}
+				document.write('</tr>');
+			}
+			document.write('</table>');
+		</script>
+		
+		<h1>SPIEL</h1>
+		<div class="spiel">
+		
+			<div class="item"></div>
+			<div class="item"></div>
+			<div class="clearer"></div>
+			
+			<div class="item"></div>
+			<div class="item"></div>
+			<div class="clearer"></div>
+			
+			<div class="item"></div>
+			<div class="item"></div>
+			<div class="clearer"></div>
+			
+			<div class="item"></div>
+			<div class="item"></div>
+			<div class="clearer"></div>
+			
+		</div>
+		<br/><br/>
+		
+		<script>
+		
+			document.write('<div class="spiel">');
+			for(var row=0; row<10; row++){
+				for(var col=0; col<10; col++){
+					document.write('<div class="item"></div>');
+				}
+				document.write('<div class="clearer"></div>');
+			}
+			document.write('</div>');
+		
+		</script>
+		
+		<h1>FORMULARE</h1>
+		<form>
+			Tag<select>
+				<option>4711</option>
+				<option>4711</option>
+				<option>4711</option>
+				<option>4711</option>
+				<option>4711</option>
+				<option>4711</option>
+				<option>4711</option>
+				<option>4711</option>
+				<option>4711</option>
+			</select>
+		</form>
+		<br/><br/>
+		
+		<script>
+		
+			document.write('<form>');
+			
+				document.write('<select>');
+				document.write('<option>Tag</option>');
+				for(var n=1; n<32; n++){
+					document.write('<option>'+n+'</option>');
+				}
+				document.write('</select>');
+			
+				var mon = ['JAN', 'FEB', 'MRZ', 'APR', 'MAI', 'JUN', 'JUL', 'AUG', 'SEP', 'OKT', 'NOV', 'DEZ'];
+				document.write('Monat<select>');
+				document.write('<option>Monat</option>');
+				for(var n=0; n<mon.length; n++){
+					document.write('<option>'+mon[n]+'</option>');
+				}
+				document.write('</select>');
+			
+				document.write('Jahr<select>');
+				for(var n=2014; n>1904; n--){
+					document.write('<option>'+n+'</option>');
+				}
+				document.write('</select>');
+			
+			document.write('</form>');
+		
+		
+		</script>
+	
+		<h1>"CMS"</h1>
+		<div class="content">
+		
+			<div class="artikel">
+				<h1>Headline</h1>
+				<div class="date">Jun 11, 2006 by Laoreet</div>
+				<p>Aliquam risus justo, mollis in, laoreet a, consectetuer nec, risus. Nunc blandit sodales lacus. Nam luctus semper mi. In eu diam. Phasellus rutrum elit vel nisi. Cras mauris nulla, egestas quis, cursus at, venenatis ac, ante. Fusce accumsan enim et arcu. Duis sagittis libero at lacus. Suspendisse lacinia nulla eget urna.</p>
+				<p>In hac habitasse platea dictumst. Duis porttitor. Sed vulputate elementum nisl. Vivamus et mi at arcu mattis iaculis. Nullam posuere tristique tortor. In bibendum. Aenean ornare, nunc eget pretium porttitor, sem est pretium leo, non euismod nulla dui non diam. Pellentesque dictum faucibus leo. Vestibulum ac ante. Sed in est. Sed sodales nisl sit amet augue. Donec ultrices, augue ullamcorper posuere laoreet, turpis massa tristique justo, sed egestas metus magna sed purus. Fusce eleifend, dui ut posuere auctor, justo elit posuere sapien, at blandit enim quam fringilla mi.</p>
+			</div>
+			
+			<div class="artikel">
+				<h1>Headline</h1>
+				<div class="date">Jun 11, 2006 by Laoreet</div>
+				<p>Aliquam risus justo, mollis in, laoreet a, consectetuer nec, risus. Nunc blandit sodales lacus. Nam luctus semper mi. In eu diam. Phasellus rutrum elit vel nisi. Cras mauris nulla, egestas quis, cursus at, venenatis ac, ante. Fusce accumsan enim et arcu. Duis sagittis libero at lacus. Suspendisse lacinia nulla eget urna.</p>
+				<p>In hac habitasse platea dictumst. Duis porttitor. Sed vulputate elementum nisl. Vivamus et mi at arcu mattis iaculis. Nullam posuere tristique tortor. In bibendum. Aenean ornare, nunc eget pretium porttitor, sem est pretium leo, non euismod nulla dui non diam. Pellentesque dictum faucibus leo. Vestibulum ac ante. Sed in est. Sed sodales nisl sit amet augue. Donec ultrices, augue ullamcorper posuere laoreet, turpis massa tristique justo, sed egestas metus magna sed purus. Fusce eleifend, dui ut posuere auctor, justo elit posuere sapien, at blandit enim quam fringilla mi.</p>
+			</div>
+			
+			<div class="artikel">
+				<h1>Headline</h1>
+				<div class="date">Jun 11, 2006 by Laoreet</div>
+				<p>Aliquam risus justo, mollis in, laoreet a, consectetuer nec, risus. Nunc blandit sodales lacus. Nam luctus semper mi. In eu diam. Phasellus rutrum elit vel nisi. Cras mauris nulla, egestas quis, cursus at, venenatis ac, ante. Fusce accumsan enim et arcu. Duis sagittis libero at lacus. Suspendisse lacinia nulla eget urna.</p>
+				<p>In hac habitasse platea dictumst. Duis porttitor. Sed vulputate elementum nisl. Vivamus et mi at arcu mattis iaculis. Nullam posuere tristique tortor. In bibendum. Aenean ornare, nunc eget pretium porttitor, sem est pretium leo, non euismod nulla dui non diam. Pellentesque dictum faucibus leo. Vestibulum ac ante. Sed in est. Sed sodales nisl sit amet augue. Donec ultrices, augue ullamcorper posuere laoreet, turpis massa tristique justo, sed egestas metus magna sed purus. Fusce eleifend, dui ut posuere auctor, justo elit posuere sapien, at blandit enim quam fringilla mi.</p>
+			</div>
+			
+		</div>	
+			--------------------------------------<br/>
+		<script>
+		
+			var news = '<div class="artikel">'
+				news += '<h1>NEWS</h1><div class="date">Jun 11, 2006 by Laoreet</div>';
+				news += '<p>Aliquam risus justo, mollis in, laoreet a, consectetuer nec, risus.</p>';
+				news += '</div>';
+
+			var sport = '<div class="artikel">'
+				sport += '<h1>SPORT</h1><div class="date">Jun 11, 2006 by Laoreet</div>';
+				sport += '<p>Aliquam risus justo, mollis in, laoreet a, consectetuer nec, risus.</p>';
+				sport += '</div>';
+
+			var kultur = '<div class="artikel">'
+				kultur += '<h1>KULTUR</h1><div class="date">Jun 11, 2006 by Laoreet</div>';
+				kultur += '<p>Aliquam risus justo, mollis in, laoreet a, consectetuer nec, risus.</p>';
+				kultur += '</div>';
+
+			var nachrichten = [news, sport, kultur];
+			
+			for(var n=0; n<nachrichten.length; n++){
+				document.write(nachrichten[n]);
+			}
+			
+		
+		
+		</script>	
+			
+			
+
+		
+	</body>
+	
+
+</html>
