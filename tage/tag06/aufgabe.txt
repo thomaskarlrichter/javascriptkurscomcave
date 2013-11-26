@@ -1,0 +1,36 @@
+
+Kleines 1x1
+
+Aufruf:  einmaleins(3);
+
+Ausgabe:
+1*5 = 5;
+2*5 = 10;
+3*5 = 15;
+4*5 = 20;
+.....
+10*5 = 50;
+
+
+-------------------------------------------
+
+Universalliste mit gleichem Inhalt
+
+Aufruf: liste(10);  // Reihen
+
+Ausgabe: Eine Liste mit 10 Werten
+
+
+-----------------------------------------------
+
+Universaltabelle mit gleichem Inhalt
+
+Aufruf: tabelle(4,5);  // Reihen, Spalten
+
+Ausgabe: Eine Tabelle mit 4 Reihen und 5 Spalten
+
+
+-----------------------------------------------
+
+
+

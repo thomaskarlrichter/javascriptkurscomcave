@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+	
+		<meta charset="utf-8" />
+		<title>Tolle Webseite</title>
+		
+		<style></style>
+		<script>
+			// VARIABLEN
+		
+			// FUNKTIONEN
+			function einmaleins(zahl){
+				document.write('1*'+zahl+'=' + 1*zahl + '<br/>');
+				document.write('2*'+zahl+'=' + 2*zahl + '<br/>');
+				document.write('3*'+zahl+'=' + 3*zahl + '<br/>');
+				document.write('4*'+zahl+'=' + 4*zahl + '<br/>');
+				document.write('5*'+zahl+'=' + 5*zahl + '<br/>');
+				document.write('6*'+zahl+'=' + 6*zahl + '<br/>');
+				document.write('7*'+zahl+'=' + 7*zahl + '<br/>');
+				document.write('8*'+zahl+'=' + 8*zahl + '<br/>');
+				document.write('9*'+zahl+'=' + 9*zahl + '<br/>');
+				document.write('10*'+zahl+'=' + 10*zahl + '<br/>');
+			}
+			
+			function liste(nr){ 
+				document.write('<ul>');
+				for(var n=0; n<nr; n++){
+					document.write('<li>4711</li>');
+				}
+				document.write('</ul>');
+			}
+		
+			function tabelle(reihen, spalten){
+				document.write('<table border="1">');
+				for(var r=0; r<reihen; r++){
+					document.write('<tr>');
+					for(var s=0; s<spalten; s++){
+						document.write('<td>4711</td>');
+					}
+					document.write('</tr>');
+				}
+				document.write('</table>');
+			}
+		
+			// HAUPTROGRAMM
+		</script>
+	
+	
+	</head>
+	
+	<body>
+		
+		<h3>Funktionen</h3>
+		
+		<script>
+			
+			einmaleins(5);
+			liste(5);
+			tabelle(6,7);
+			
+		</script>
+		
+		
+
+	</body>
+	
+
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+<!--
+
+
+Kleines 1x1
+
+Aufruf:  einmaleins(3);
+
+Ausgabe:
+1*5 = 5;
+2*5 = 10;
+3*5 = 15;
+4*5 = 20;
+.....
+10*5 = 50;
+
+
+-------------------------------------------
+
+Universalliste mit gleichem Inhalt
+
+Aufruf: liste(10);  // Reihen
+
+Ausgabe: Eine Liste mit 10 Werten
+
+
+-----------------------------------------------
+
+Universaltabelle mit gleichem Inhalt
+
+Aufruf: tabelle(4,5);  // Reihen, Spalten
+
+Ausgabe: Eine Tabelle mit 4 Reihen und 5 Spalten
+
+
+------------------------------------------------->
+    <script>
+        function tabelle(zeilen, spalten, elemente){
+            var zahl = 1;
+            var html = '<table border="1">';
+            for (var i=1; i<=zeilen; i++){
+                html += "<tr>";
+                for (var j=1; j<=spalten; j++,zahl++){
+                    html += "<td>"+liste(elemente, zahl)+"</td>"
+                }
+                html += "</tr>";
+            }
+            html += "</table>";
+            return html;
+        }
+        function liste(elemente, zahl){
+            var html;
+            html = "<ul>";
+            for(var i = 1;i<=elemente; i++){
+                html += "<li>" + einmaleins(i, zahl) + "</li>";
+            }
+            html += "</ul>";
+            return html;
+        }
+        function einmaleins(wert, zahl ){
+            return wert + " * " + zahl + " = " + wert * zahl;
+        }
+        function main(){
+            document.write(tabelle(2,3,10));
+        }
+    </script>
+</head>
+<body>
+<script>
+    main();
+</script>
+</body>
+</html>

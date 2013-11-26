@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+	
+		<meta charset="utf-8" />
+		<title>Tolle Webseite</title>
+		
+		<style></style>
+		
+		<script>
+		
+			function malDE(a,b){
+				document.write('Ergebnis: ' + a*b +'<br/>');
+			}
+			
+			function malEN(a,b){
+				document.write('Result: ' + a*b +'<br/>');
+			}
+			// 25 Funktionen für jede Sprache einzeln, weil die 
+			// Ausgabe in der Funktion stattfindet
+			// ..............
+			function malIT(a,b){
+				document.write('Risultato: ' + a*b +'<br/>');
+			}
+		
+		
+		
+			function mal(a,b) {
+				return a*b;
+			}
+			
+			function susi(){
+				return 'ICH BIN SUSI';
+			}
+		
+			function fritz(){
+				return [11,22,33,44];
+			}
+		
+		</script>
+	
+	
+	</head>
+	
+	<body>
+		
+		<h3>Funktionen</h3>
+		<script>
+		
+			//malDE(5,3);
+			//malEN(3,7);
+			//malIT(5,7);
+			
+			var zufall = Math.random(); // Number
+			document.write('Die Zufallszahl ist: ' + zufall +'<br/>');
+			
+			var kauf = Math.round(12.499999345); // Number
+			document.write('Der Betrag ist: ' + kauf +' €<br/>');
+			
+			var wurzel = Math.sqrt(12); // Number
+			document.write('Der Wurzel lautet: ' + wurzel +'<br/>');
+			
+			var sin = Math.sin(30); // Number
+			document.write('Der Sinus-Radiant: ' + sin +'<br/>');
+			
+			var erg = mal(6,4); // Number
+			document.write('Ergebnis: '+ erg + '<br/>');
+			
+			var txt = susi();  // String
+			document.write('SUSI sagt ' + txt + '<br/>');
+			
+			var aus = 'ICH BIN OTTO'; // String
+			document.write('OTTO sagt ' + aus + '<br/>');
+			
+			document.write('SUSI sagt:' + susi() + '<br/>');
+			
+			document.write('Das Ergebnis lautet:' + mal(5,5) + '<br/>' )
+			
+			document.write('Das Ergebnis lautet:' + mal( mal(2,2), mal(3,3) ) + '<br/>' )
+			
+			document.write('Das Ergebnis lautet:' + mal( Math.sqrt(9) , Math.sqrt(4) ) + '<br/>' )
+			
+			var b = fritz(); // Array
+			document.write('Der erste Wert ist:' + b[0] + '<br/>');
+			document.write('Der dritte Wert ist:' + fritz()[2] + '<br/>');
+			
+			// document.getElementsByTagName('h3')[0]
+			
+		</script>
+
+	</body>
+	
+
+</html>

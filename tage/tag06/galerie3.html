@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+	
+		<meta charset="utf-8" />
+		<title>Tolle Webseite</title>
+		
+		<script>
+		
+			// VARIABLEN
+			
+			var stadt = ['', 'berlin', 'bremen', 'köln', 'leipzig', 'dresden'];
+			
+			// FUNKTIONEN
+			
+			function austausch(nr, txt) {
+				document.getElementById('gross').src = 'galerie/de'+nr+'.jpg';
+				document.getElementById('stadt').innerHTML = stadt[nr]; // = txt;
+			}
+		
+			
+		</script>
+		
+	</head>
+	
+	<body>
+	
+		<!-- Das HAUPTPROGRAMM bilden die EventHandler -->
+
+		<h2 id="stadt">Galerie</h2>
+	
+		<img id="gross" src="galerie/de1.jpg" /><br/>
+		<img onmouseover="austausch(1,'BERLIN');" src="galerie/thumb1.jpg" />
+		<img onmouseover="austausch(2,'BREMEN');" src="galerie/thumb2.jpg" />
+		<img onmouseover="austausch(3,'KÖLN');" src="galerie/thumb3.jpg" />
+		<img onmouseover="austausch(4,'LEIPZIG');" src="galerie/thumb4.jpg" />
+		<img onmouseover="austausch(5,'DRESDEN');" src="galerie/thumb5.jpg" />
+
+	</body>
+	
+
+</html>

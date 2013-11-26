@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+	
+		<meta charset="utf-8" />
+		<title>Tolle Webseite</title>
+		
+		<style></style>
+		<script>
+			// VARIABLEN
+			
+			// FUNKTIONEN
+			
+			// Einfache Funktion
+			function einfach(){
+				document.write('<ul>');
+				document.write('<li>4711</li>');
+				document.write('<li>4711</li>');
+				document.write('<li>4711</li>');
+				document.write('</ul>');
+			}
+			
+			// Funktion mit Übergabe
+			function liste(platz1, platz2, platz3){
+				document.write('<ul>');
+				document.write('<li>'+platz1+'</li>');
+				document.write('<li>'+platz2+'</li>');
+				document.write('<li>'+platz3+'</li>');
+				document.write('</ul>');
+			}
+			
+			function mal(op1,op2){
+				var erg = op1 * op2;
+				document.write('Multiplikation '+op1+' * '+op2+' = '+erg+'<br/>');
+			}
+			
+			function mwst(netto){
+				var brutto = netto * 0.19 + parseInt(netto);
+				document.write('Nettobetrag: '+netto+'€ macht insgesamt: '+ brutto +'€<br/>');
+			}
+			
+			function FtoC(temperatur){
+				// °C = (°F - 32) * 5/9
+				var c = (temperatur-32) * 5/9;
+				document.write(temperatur+'°F entsprechen '+c+'°C<br/>');
+			}
+			
+			function CtoF(temperatur){
+				// °F = °C * 1.8 + 32
+				document.write('34°C entsprechen 93.2°F<br/>');
+			}
+			
+			// Funktionen mit Übergabe und Rückgabe
+			
+			function minus(op1, op2) {
+				return op1-op2;
+			}
+			
+			function rueck() {
+				return 4*5;
+			}
+
+			
+			// HAUPTPROGRAMM
+		</script>
+	
+	</head>
+	
+	<body>
+		
+		<h3>Funktionen</h3>
+			
+		<script>
+			
+			var t = rueck();
+			document.write(t + '<br/>');
+			
+			var sub = minus(50, 20);
+			document.write(sub + '<br/>');
+			
+			var r = prompt('GIB ein');
+			document.write(r+'<br/>');
+			
+			
+			//var ein = prompt('Gib Betrag ein');
+			//document.write(ein + '<br/>');
+			
+			/*einfach();
+
+		
+			liste('Hallo Welt', 'Montag', 25);
+			liste('Hello World', 99,88);
+			
+			mal(2,3);
+			mal(4,5);
+			mal(3,7);
+			
+			mwst(199.80);
+			mwst(69.99);
+		
+			FtoC(93.2);
+			FtoC(100);*/
+		
+		
+			var abc = 4711;
+			//var ein = prompt('Gib Nettobetrag ein!');
+			//mwst(ein);
+		
+		
+			//document.write('html-Ausgabe<br/>');
+		
+			//alert(ein);
+		
+			//alert('Hallo Welt');
+		
+	
+		
+		</script>
+			
+		
+	</body>
+	
+
+</html>

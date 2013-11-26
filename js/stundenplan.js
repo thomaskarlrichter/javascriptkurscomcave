@@ -1,7 +1,4 @@
-/**
- * Created by trichter on 19.11.13.
- */
-
+/* global _, console, jshint strict: true, browser: true, devel: true */
 var stundenplan = [
     {tag: "Montag", anfang: "08:00", ende: "13:00", fach: "javascript"},
     {tag: "Dienstag", anfang: "08:00", ende: "13:00", fach: "javascript"},
@@ -18,6 +15,7 @@ var slots = ["08:00", "08:45", "09:45", "10:30", "11:30", "12:15",
              "13:30", "14:15", "15:15", "16:15"];
 
 function reduziere_slots(stunde) {
+    "use strict";
     var DUMMYDAY = "1.1.2000 ";
     var anfang_date = new Date(DUMMYDAY + stunde.anfang);
     var ende_date = new Date(DUMMYDAY + stunde.ende);
@@ -28,6 +26,7 @@ function reduziere_slots(stunde) {
 }
 
 function einheit_eintragen(stunde) {
+    "use strict";
     var index, anfang_id, myid, fachstunden;
     index = wochentage[stunde.tag];
     fachstunden = reduziere_slots(stunde);
@@ -39,6 +38,7 @@ function einheit_eintragen(stunde) {
 }
 
 function alle_eintragen(stundenplan) {
+    "use strict";
     console.log(
         _.map(stundenplan, einheit_eintragen));
 }
