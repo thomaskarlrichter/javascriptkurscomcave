@@ -1,0 +1,69 @@
+1. 	Übersicht Grundlagen Programmierung
+	Browsertechnik
+	Integration JS in HTML
+	Funktionsaufrufe alert('Hallo Welt');
+	Handler Funktionsaufrufe
+	bsp. Galerie - Akkordeon - Tab
+	
+	http://www.peterkropff.de/site/javascript/grundlagen.htm
+	http://www.peterkropff.de/site/javascript/event_handler.htm
+	http://www.teialehrbuch.de/Kostenlose-Kurse/JavaScript/12671-Grundlagen.html
+	
+2.  Datentypen
+	Operatoren 
+		- Zuweisungsoperatoren
+		- Berechnungsoperatoren
+		- Operator zur Zeichenkettenverknüpfung
+		
+	http://www.peterkropff.de/site/javascript/variablen.htm
+	http://www.teialehrbuch.de/Kostenlose-Kurse/JavaScript/12687-Variablen.html		
+		
+3.	Schleifen
+		for(var n=0; n<5; n++){ }
+		document.write('<li>'+v+'</li>')
+
+	http://www.peterkropff.de/site/javascript/bedingungen_schleifen.htm
+	http://www.teialehrbuch.de/Kostenlose-Kurse/JavaScript/12712-Die-for-Schleife.html
+		
+
+4. 	Schleifen - Arrays
+		In Arrays ausgelagerte Informationen
+		in Tabellen anzeigen
+		Bsp. Stundenplan - Aktienkurse
+		
+	http://www.peterkropff.de/site/javascript/bedingungen_schleifen.htm
+	http://www.teialehrbuch.de/Kostenlose-Kurse/JavaScript/12742-Elemente-von-Arrays.html
+		
+5.  Schleifen - Arrays
+	Handler - Funktionen - Lesen von Formularinhalten
+	Bsp. Autohaus
+	
+6/7. Funktionen
+		- einfache Funktionen
+		- Funktionen mit Übergaben
+		- Funktionen mit Übergabe und Rückgabe
+		
+	http://www.peterkropff.de/site/javascript/funktionen.htm
+	http://www.teialehrbuch.de/Kostenlose-Kurse/JavaScript/12722-Funktionen.html	
+		
+8.	Objekte
+		- Objekthierarchien und -strukturen
+		- "Objekte umsetzen im Texteditor"
+		- Eigenschaften und Methoden
+		
+	http://www.peterkropff.de/site/javascript/objekte.htm
+	http://www.teialehrbuch.de/Kostenlose-Kurse/JavaScript/12766-Objekte.html	
+		
+
+9. 	Objekte in der Praxis
+		- JSONP
+	Bsp. Flickr, Wetterdaten 
+
+	http://en.wikipedia.org/wiki/JSONP
+	http://de.wikipedia.org/wiki/JSONP#JSONP
+	http://openweathermap.org/API#weather
+	http://www.flickr.com/services/api/
+	
+	
+		
+	

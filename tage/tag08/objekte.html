@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+	
+		<meta charset="utf-8" />
+		<title>Tolle Webseite</title>
+		
+		<script>
+
+			// Definition
+			var zahl = 12;							// Number
+			var str  = 'Das ist eine Zeichenkette';	// String
+			var wahr = true;						// Boolean
+			var ar   = ['Brot', 'Gemüse', 'Bier'];	// Array
+			var auto = { hersteller:'BMW', typ:'X3' , ort:'München'};  // Objekt
+			var fun  = function(){ alert(4711); };	// Funktion
+					
+			var stadt = {
+				name       : 'Hamburg',
+				einwohner  : 1.7,
+				bezirke    : ['Altona', 'Billstedt', 'Wandsbek'],
+				museum     : {},
+				verwaltung : {},
+				zoo        : { 
+				  elefant: { 
+				    alter : 5, 
+					farbe : 'grau',
+					troeten: function(){ alert('TROETEN'); },
+					stampfen: function(){ alert('STAMPFEN'); }
+				  },
+				  maus   : { 
+					farbe:'weiss', 
+					laenge:10,
+					piepsen:function(){ alert('PIEPSEN'); },
+					katzenjagen:function(){ alert('JAGEN'); }
+				  }
+				}
+			};
+			
+			console.dir( stadt );
+			console.dir( document );
+			//alert(document.title);
+			
+			console.dir( screen );
+			document.title = 'NEU';
+			stadt.zoo.maus.piepsen();
+			
+		</script>
+	
+	
+	</head>
+	
+	<body>
+		
+		<h3>Objekte</h3>
+		
+		<img src="objekte.jpg" style="width:600px;"/>
+		
+		<script>
+		
+		</script>
+		
+
+	</body>
+	
+
+</html>

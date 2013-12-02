@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+	
+		<meta charset="utf-8" />
+		<title>Tolle Webseite</title>
+		
+		<style></style>
+		<script>
+		
+			// VARIABLEN
+			
+			// FUNKTIONEN
+	
+			function menu1(){
+				// document.write() VERBOTEN s.u.
+				document.getElementById('ausgabe').innerHTML = 'TOLLER INHALT';
+			}
+		
+			// HAUPTPROGRAMM
+	
+			// document.write() NUR WÄHREND DES SEITENAUFBAUS!!! (<html> --->  </html> )
+			// Nach dem Aufbau nur noch document.getElementById() 
+			// oder document.getElementsByTagName()
+	
+		</script>
+	
+	
+	</head>
+	
+	<body>
+		
+		<h1>Tolle Webseite</h1>
+
+		<script>
+			document.write('<ul>');
+				for(var n = 0; n<5; n++) {
+					document.write('<li>4711</li>');
+				}
+			document.write('</ul>');
+		</script>
+		
+		
+		<h3>Inhalt</h3>
+
+		<button onclick="menu1();" >MENU 1</button>
+		<button>MENU 2</button>
+		<button>MENU 3</button>
+		
+		<div id="ausgabe"></div>
+		
+		<h3>Ende der Webseite</h3>
+		
+		<script>
+			document.write('hallo');
+		</script>
+		
+	</body>
+	
+
+</html>
