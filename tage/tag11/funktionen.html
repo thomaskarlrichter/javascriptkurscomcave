@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+	
+		<meta charset="utf-8" />
+		<title>Tolle Webseite</title>
+		
+		<style></style>
+		
+		<script>
+
+			// Definition
+			var zahl = 12;							// Number
+			var str  = 'Das ist eine Zeichenkette';	// String
+			var wahr = true;						// Boolean
+			var ar   = ['Brot', 'Gemüse', 'Bier'];	// Array
+			var auto = { hersteller:'BMW', typ:'X3' , ort:'München'};  // Objekt
+			var fun  = function(){ alert(4711); };	// Funktion
+		
+		
+			// Einfache Funktionen
+			function einfach(){
+				document.write('<ul>');
+				document.write('<li>4711</li>');
+				document.write('<li>4711</li>');
+				document.write('<li>4711</li>');
+				document.write('</ul>');
+			}
+			
+			
+			// Funktionen mit Übergaben
+			function liste( x, y, z ){
+				document.write('<ul>');
+				document.write('<li>'+z+'</li>');
+				document.write('<li>'+y+'</li>');
+				document.write('<li>'+x+'</li>');
+				document.write('</ul>');
+			}
+			
+			// Funktionen mit Übergaben und Rückgaben
+			function minus( susi, otto, fritz){
+				var erg = susi-otto-fritz;
+				return erg;
+			}
+		
+		
+		
+		</script>
+	
+	
+	</head>
+	
+	<body>
+		
+		<h3>Datentypen</h3>
+		
+		<script>
+			
+			// var RÜCKGABE = FUNKTION(ÜBERGABE, ÜBERGABE, ÜBERGABE);
+			// RÜCKGABE UND ÜBERGABE KANN JEDER DATENTYP SEIN
+			
+			alert('Hallo');
+			var ein = prompt('EINGABE');
+			
+			einfach();
+			liste('hallo', 1234, 'welt');
+			liste(4444, 'HALLO', 'WELT');
+			var a = minus(100,20,10);
+			document.write(a+'<br/>');
+			
+			document.write( minus(10,1,1) +'<br/>');
+			
+			
+		</script>
+		
+
+	</body>
+	
+
+</html>

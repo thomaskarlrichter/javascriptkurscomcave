@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+	
+		<meta charset="utf-8" />
+		<title>Tolle Webseite</title>
+		
+		<style></style>
+		<script>
+		
+			// Das Ergebnis einer Instanzierung ist immer ein Objekt
+		
+			var str1 = new String('Hallo Welt');  // Instanzierung
+			var str2 = 'Hello World';
+			
+			var ar1 = new Array(11,22,33,44); // Instanzierung
+			var ar2 = new Array(55,66,77,88); // Instanzierung
+			var ar3 = [1,2,3,4];
+			
+			var jetzt = new Date();
+			var xmas  = new Date(2013, 11, 24);
+			
+			var h = jetzt.getHours();
+			var m = jetzt.getMinutes();
+			var s = jetzt.getSeconds();
+			
+			var zeit = xmas.getTime() - jetzt.getTime();
+			
+			alert(zeit / 1000 / 60 / 60 / 24 );
+			
+			function Maus(){  // 'Klasse'
+				this.alter = 2;  // Eigenschaft
+				this.farbe = 'weiss';
+				this.katzenjagen = function (){ // Methode
+					alert('Katzenjagen')
+				}
+			}
+			
+			// Erstellen einer Instanz
+			var tom    = new Maus();
+			var jerry  = new Maus();
+			var mickey = new Maus();
+			
+			// Aufruf einer Methode
+			mickey.katzenjagen();
+			// Aufruf einer Eigenschaft
+			alert(jerry.farbe);
+			
+			/*var tom = {
+				alter:2,
+				farbe:'weiss',
+				katzenjagen:function(){ alert('Katzenjagen'); }
+			}
+			var jerry = {
+				alter:2,
+				farbe:'weiss',
+				katzenjagen:function(){ alert('Katzenjagen'); }
+			}
+			var mickey = {
+				alter:2,
+				farbe:'weiss',
+				katzenjagen:function(){ alert('Katzenjagen'); }
+			}*/
+			
+		
+		</script>
+	
+	
+	</head>
+	
+	<body>
+		
+		<h3>Instanz erstellen</h3>
+		
+		<script>
+		
+			document.write(ar1[0]+'<br/>');  // 11
+			document.write(ar2[3]+'<br/>');	 // 88
+			document.write(ar3[2]+'<br/>');  // 3
+		
+		</script>
+		
+
+	</body>
+	
+
+</html>
