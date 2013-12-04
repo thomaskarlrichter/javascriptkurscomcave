@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Rechentrainer</title>
+    <style>
+        #ergebnis {
+            font-size: 2em;;
+        }
+    </style>
+
+    <script>
+        var factor1, factor2, product, neueaufgabe=true;
+        function rechne(){
+
+            var ergebnis = document.getElementById("product").value;
+            if(ergebnis==product){
+                document.getElementById("ergebnis").innerHTML = ergebnis + " ist richtig";
+                neueaufgabe = true;
+            } else {
+                document.getElementById("ergebnis").innerHTML = ergebnis + " ist falsch";
+
+            }
+            document.getElementById("product").value= "";
+        }
+        function neu() {
+            if(neueaufgabe){
+            factor1 = Math.floor(Math.random() * 10) + 1;
+            factor2 = Math.floor(Math.random() * 10) + 1;
+            product = factor1*factor2;
+            document.getElementById("factor1").innerHTML = factor1.toString();
+            document.getElementById("factor2").innerHTML = factor2.toString();
+            document.getElementById("product").value = "";
+            document.getElementById("ergebnis").innerHTML = "";
+            neueaufgabe = false;
+            }
+        }
+    </script>
+</head>
+<body onload="neu();">
+<div id="tafel">
+    <div><span id="factor1"></span>*<span id="factor2"></span>=<input type="number" id="product"/><button onclick="rechne();">OK?</button></div>
+
+</div>
+<div>
+    <button onclick="neu();">Neue Aufgabe</button>
+</div>
+
+<div id="ergebnis"></div>
+</body>
+</html>

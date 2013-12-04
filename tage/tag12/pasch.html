@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pasch</title>
+    <style>
+        #tafel {
+            font-size: 3em;;
+        }
+        img {
+            padding: 5px;
+        }
+
+    </style>
+
+    <script>
+        var w1, w2, w3;
+        function neu() {
+
+            w1 = Math.floor(Math.random() * 6) + 1;
+            w2 = Math.floor(Math.random() * 6) + 1;
+            w3 = Math.floor(Math.random() * 6) + 1;
+            document.getElementById("w1").innerHTML = '<img src="images/wuerfel'+w1+'.jpg" />';
+            document.getElementById("w2").innerHTML = '<img src="images/wuerfel'+w2+'.jpg" />';
+            document.getElementById("w3").innerHTML = '<img src="images/wuerfel'+w3+'.jpg" />';
+            if(w1 === w2 && w1 === w3) {
+                document.getElementById("ergebnis").innerHTML = "PASCH!";
+            } else {
+                document.getElementById("ergebnis").innerHTML = "";
+            }
+
+
+
+        }
+    </script>
+</head>
+<body onload="neu();">
+<div id="tafel">
+    <div><span id="w1"></span><span id="w2"></span><span id="w3"></span></div>
+
+</div>
+<div>
+    <button onclick="neu();">Neuer Wurf</button>
+</div>
+
+<div id="ergebnis"></div>
+</body>
+</html>
